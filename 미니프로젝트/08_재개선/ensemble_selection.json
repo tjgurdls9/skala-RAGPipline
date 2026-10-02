@@ -1,0 +1,72 @@
+{
+  "name": "logistic_C0.1",
+  "models": [
+    "et",
+    "lgb_a",
+    "lgb_b",
+    "lgb_fp2",
+    "lgb_goss",
+    "rf",
+    "xgb_a",
+    "xgb_b",
+    "xgb_fp2",
+    "lgb_chiralcounts_seed42",
+    "lgb_extra63_seed42",
+    "lgb_leaf31_lowchild_seed42",
+    "lgb_leaf31_seed42",
+    "svm_multi_C10_prop0.15_seed42",
+    "svm_multi_C10_prop0_seed42",
+    "svm_multi_C1_prop0_seed42",
+    "svm_multi_C3_prop0.15_seed42",
+    "svm_multi_C3_prop0_seed42",
+    "svm_tanimoto_C3_seed42",
+    "xgb_depth5_reg_seed42"
+  ],
+  "selected_metrics": {
+    "auc": 0.8954820530953145,
+    "f1_safe": 0.8349393845197389,
+    "accuracy": 0.809198706431908,
+    "precision_safe": 0.7886083382266589,
+    "recall_safe": 0.8870541611624835,
+    "recall_toxic": 0.7163120567375887,
+    "threshold": 0.4020884682990541,
+    "positive_rate": 0.6119295724038807,
+    "log_loss": 0.4048837846001904
+  },
+  "threshold_plateau": [
+    0.4167097402943948,
+    0.43088258621048486
+  ],
+  "global_plateau_cutoff": 0.42484757225258646,
+  "stable_cutoff": 0.4020884682990541,
+  "coefficients": [
+    -0.065968758396649,
+    -0.07478449679248697,
+    0.0539616512243263,
+    -0.09245776088678152,
+    0.06710985450585974,
+    0.1819146864004948,
+    -0.0006320647125147052,
+    0.08640523833855865,
+    -0.21979783901786062,
+    0.16188517916168577,
+    0.21443113797534763,
+    0.33632135587254547,
+    0.119696437488731,
+    0.250474052975823,
+    0.04534240918714484,
+    -0.15753847519432335,
+    0.16996490130607614,
+    0.10023429380504974,
+    -0.1381947593104738,
+    -0.1297104473512187
+  ],
+  "fold_thresholds": [
+    0.4132950852319101,
+    0.3842928854420534,
+    0.39546842861321807,
+    0.39602309103009103,
+    0.40815384556801715
+  ],
+  "scope": "Meta cross-fit reuses existing base OOF; selection estimate, not fully nested unbiased CV."
+}

@@ -1,0 +1,65 @@
+﻿features,conflict_groups,conflict_rows,minimum_errors_from_identical_inputs
+PTFP,57,123,58
+PTFP + ecfp,34,75,35
+PTFP + fcfp,38,83,39
+PTFP + ecfp + fcfp,34,75,35
+PTFP + MolWt,52,112,53
+PTFP + ecfp + MolWt,34,75,35
+PTFP + fcfp + MolWt,38,83,39
+PTFP + ecfp + fcfp + MolWt,34,75,35
+PTFP + clogp,50,108,51
+PTFP + ecfp + clogp,34,75,35
+PTFP + fcfp + clogp,38,83,39
+PTFP + ecfp + fcfp + clogp,34,75,35
+PTFP + MolWt + clogp,50,108,51
+PTFP + ecfp + MolWt + clogp,34,75,35
+PTFP + fcfp + MolWt + clogp,38,83,39
+PTFP + ecfp + fcfp + MolWt + clogp,34,75,35
+PTFP + sa_score,33,73,34
+PTFP + ecfp + sa_score,33,73,34
+PTFP + fcfp + sa_score,33,73,34
+PTFP + ecfp + fcfp + sa_score,33,73,34
+PTFP + MolWt + sa_score,33,73,34
+PTFP + ecfp + MolWt + sa_score,33,73,34
+PTFP + fcfp + MolWt + sa_score,33,73,34
+PTFP + ecfp + fcfp + MolWt + sa_score,33,73,34
+PTFP + clogp + sa_score,33,73,34
+PTFP + ecfp + clogp + sa_score,33,73,34
+PTFP + fcfp + clogp + sa_score,33,73,34
+PTFP + ecfp + fcfp + clogp + sa_score,33,73,34
+PTFP + MolWt + clogp + sa_score,33,73,34
+PTFP + ecfp + MolWt + clogp + sa_score,33,73,34
+PTFP + fcfp + MolWt + clogp + sa_score,33,73,34
+PTFP + ecfp + fcfp + MolWt + clogp + sa_score,33,73,34
+PTFP + qed,50,108,51
+PTFP + ecfp + qed,34,75,35
+PTFP + fcfp + qed,38,83,39
+PTFP + ecfp + fcfp + qed,34,75,35
+PTFP + MolWt + qed,50,108,51
+PTFP + ecfp + MolWt + qed,34,75,35
+PTFP + fcfp + MolWt + qed,38,83,39
+PTFP + ecfp + fcfp + MolWt + qed,34,75,35
+PTFP + clogp + qed,50,108,51
+PTFP + ecfp + clogp + qed,34,75,35
+PTFP + fcfp + clogp + qed,38,83,39
+PTFP + ecfp + fcfp + clogp + qed,34,75,35
+PTFP + MolWt + clogp + qed,50,108,51
+PTFP + ecfp + MolWt + clogp + qed,34,75,35
+PTFP + fcfp + MolWt + clogp + qed,38,83,39
+PTFP + ecfp + fcfp + MolWt + clogp + qed,34,75,35
+PTFP + sa_score + qed,33,73,34
+PTFP + ecfp + sa_score + qed,33,73,34
+PTFP + fcfp + sa_score + qed,33,73,34
+PTFP + ecfp + fcfp + sa_score + qed,33,73,34
+PTFP + MolWt + sa_score + qed,33,73,34
+PTFP + ecfp + MolWt + sa_score + qed,33,73,34
+PTFP + fcfp + MolWt + sa_score + qed,33,73,34
+PTFP + ecfp + fcfp + MolWt + sa_score + qed,33,73,34
+PTFP + clogp + sa_score + qed,33,73,34
+PTFP + ecfp + clogp + sa_score + qed,33,73,34
+PTFP + fcfp + clogp + sa_score + qed,33,73,34
+PTFP + ecfp + fcfp + clogp + sa_score + qed,33,73,34
+PTFP + MolWt + clogp + sa_score + qed,33,73,34
+PTFP + ecfp + MolWt + clogp + sa_score + qed,33,73,34
+PTFP + fcfp + MolWt + clogp + sa_score + qed,33,73,34
+PTFP + ecfp + fcfp + MolWt + clogp + sa_score + qed,33,73,34

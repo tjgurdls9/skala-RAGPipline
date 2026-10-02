@@ -1,0 +1,6 @@
+{
+  "seconds": 1.8154709339141846,
+  "train_rows": 8349,
+  "C": 10,
+  "kernel": "binary Tanimoto"
+}

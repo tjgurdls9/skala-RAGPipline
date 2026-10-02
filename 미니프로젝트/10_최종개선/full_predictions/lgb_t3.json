@@ -1,0 +1,19 @@
+{
+  "seconds": 31.476536989212036,
+  "train_rows": 8349,
+  "params": {
+    "n_estimators": 420,
+    "learning_rate": 0.05,
+    "subsample_freq": 1,
+    "random_state": 3,
+    "n_jobs": 2,
+    "verbose": -1,
+    "num_leaves": 95,
+    "min_child_samples": 24,
+    "colsample_bytree": 0.378,
+    "subsample": 0.884,
+    "reg_lambda": 27.1,
+    "reg_alpha": 0.009,
+    "max_bin": 63
+  }
+}

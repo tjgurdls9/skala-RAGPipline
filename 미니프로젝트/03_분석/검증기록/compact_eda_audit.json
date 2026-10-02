@@ -1,0 +1,153 @@
+{
+  "source_sha256": "1ee4605ab2c64e01e8d2ea0c0194736180bde8a2cffc6fd6cc3b072cfc3c1425",
+  "rdkit": "2025.09.6",
+  "python": "3.11.15",
+  "machine": "arm64",
+  "rows": 8349,
+  "removed_constants": 49,
+  "exploratory_added": 126,
+  "compact_added": 8,
+  "compact_columns": 3037,
+  "replacement_added": 0,
+  "replacement_columns": 3029,
+  "compact_features": [
+    "stereo_R_minus_S",
+    "stereo_r_minus_s",
+    "stereo_unassigned_count",
+    "stereo_env_001",
+    "stereo_env_006",
+    "stereo_env_046",
+    "stereo_env_054",
+    "stereo_env_084"
+  ],
+  "local_features": [
+    {
+      "name": "stereo_env_001",
+      "environment": "C(C(C)(C)O)(OC)C(c)O",
+      "CIP": "R"
+    },
+    {
+      "name": "stereo_env_006",
+      "environment": "C(C(N)=O)(CN)C(c)C",
+      "CIP": "R"
+    },
+    {
+      "name": "stereo_env_046",
+      "environment": "C(N)(CO)C(O)C",
+      "CIP": "R"
+    },
+    {
+      "name": "stereo_env_054",
+      "environment": "C(O)(C(c)O)C(C)O",
+      "CIP": "R"
+    },
+    {
+      "name": "stereo_env_084",
+      "environment": "C1(CC1C)C(=O)N",
+      "CIP": "R"
+    }
+  ],
+  "selection_scope": "전역 요약 3개를 보존하고 알려진 잔여 대립 쌍 8개를 구분하는 조건에서 국소 변수 최소5개를 탐색했다. 전체 문제의 최적 변수 수나 독립 예측 검증은 아니다.",
+  "unresolved_after_three_summaries": [
+    [
+      "C03",
+      877,
+      878
+    ],
+    [
+      "C19",
+      4866,
+      4867
+    ],
+    [
+      "C21",
+      5573,
+      5574
+    ],
+    [
+      "C21",
+      5573,
+      5575
+    ],
+    [
+      "C21",
+      5574,
+      5577
+    ],
+    [
+      "C21",
+      5575,
+      5577
+    ],
+    [
+      "C25",
+      6621,
+      6622
+    ],
+    [
+      "C27",
+      6765,
+      6767
+    ]
+  ],
+  "remaining_conflicts": {
+    "original": 33,
+    "compact8": 0,
+    "replacement": 0
+  },
+  "benchmark": {
+    "탐색126열": {
+      "runs_seconds": [
+        7.59184374997858,
+        7.08474645804381,
+        6.628937874978874
+      ],
+      "median_seconds_8349": 7.08474645804381,
+      "median_ms_per_molecule": 0.8485742553651707
+    },
+    "축소8열": {
+      "runs_seconds": [
+        4.158855624962598,
+        4.187874416995328,
+        4.209687958005816
+      ],
+      "median_seconds_8349": 4.187874416995328,
+      "median_ms_per_molecule": 0.5016019184327857
+    },
+    "기존1024열대체": {
+      "runs_seconds": [
+        4.659546000009868,
+        4.5338860410265625,
+        4.788766916957684
+      ],
+      "median_seconds_8349": 4.659546000009868,
+      "median_ms_per_molecule": 0.5580962989591409
+    }
+  },
+  "csv_sizes_bytes": {
+    "train.csv": 52154470,
+    "train_eda_exploratory126.csv": 53858150,
+    "train_eda.csv": 51470906,
+    "train_eda_cip_fp.csv": 51341975
+  },
+  "extra_numeric_float64_bytes": {
+    "exploratory126": 8415792,
+    "compact8": 534336,
+    "replacement": 0
+  },
+  "replacement_definition": {
+    "radius": 2,
+    "bits": 1024,
+    "custom_atom_invariants": "BLAKE2s32(connectivity invariant:CIP R/S/r/s/?/-)",
+    "includeChirality": false,
+    "why_false": "CIP states already explicitly decorated; bond stereo retained by RDKit",
+    "requires_retraining": true,
+    "original_ECFP_generation_unknown": true
+  },
+  "limits": [
+    "known-dataset representation collision resolution, not causal toxicity explanation",
+    "97 candidates selected from known conflicts; independent chemical-family validation still required",
+    "fixed 1024-bit hashing can collide on future molecules",
+    "cost excludes model training, services, I/O and infrastructure pricing"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "01_원본자료/predict_output_홍길동.csv": "63b94b4846b54f973c33c49ab2000db4eeeb32fbd4e9d69ea710e81f32e007ed",
+  "01_원본자료/predict_input.csv": "a514acd0f8729daa17bcdc43a70b96abca57f527113bce5dbb90baeadfc7251b",
+  "02_데이터/train.csv": "1ee4605ab2c64e01e8d2ea0c0194736180bde8a2cffc6fd6cc3b072cfc3c1425",
+  "01_원본자료/train_original_labels.csv.bak": "cb7118a9533e36d81cdb4aa2e9318e9fa0b80faa70d132d7d3b2009e81fca5d8",
+  "07_개선/make_submission.py": "e28354899cd0a06258d0e4922d0f1ae810d184e117b6647c3d8eeeee98fb5fb9",
+  "07_개선/blend.py": "64a8c95fcf6ef1e91ad030994c6dcc55797fd594331a6f0f2a143e06c235b344",
+  "07_개선/zoo.py": "94280771a3369fd3cf9ec8fb92fe96f74f4654eaf7d2a9be64bdcabd5d229e95",
+  "07_개선/build_features.py": "22872a05757fd28ae1d0cc25fdef8fc85ad199a40ea094769774ccf345ac5f06",
+  "07_개선/build_fp2.py": "daee1716448ac8570502245e946f1a771075c5f4f7ce67c324f1318d3b79e791",
+  "07_개선/exp.py": "3d1779d70ee7d6de5b9dfd1f1dd28fc47f5427f0f21b60350dbd968479e4ac28",
+  "07_개선/features.npz": "a4ee13c31c0c825e90f1ee60287858c303d8471e668f7477570065610e669fa9",
+  "07_개선/fp2.npz": "d3384f0f39a83ae9c1b6b4e144971fb754c1162006caa3ebe93f48f8152be92c",
+  "08_재개선/1차백업/predict_output_서혁인.csv": "f3d5005d7619e912cd529faca0f12488d41170c3fadb0e2b6ed96dad3741849e"
+}

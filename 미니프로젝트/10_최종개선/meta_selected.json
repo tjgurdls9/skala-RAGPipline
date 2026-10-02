@@ -1,0 +1,60 @@
+{
+  "selected": {
+    "name": "baseline",
+    "width": 16,
+    "C": 0.01,
+    "boundary_weighted": false,
+    "auc": 0.8945392141316079,
+    "f1_fixed": 0.8348681456676433,
+    "repeated_cross_threshold_f1": 0.8344829878609651,
+    "seed_f1": [
+      0.8341898269533299,
+      0.835103060587133,
+      0.8341560760424325
+    ],
+    "cut": 0.4275409703544916,
+    "accuracy": 0.8109953287818901,
+    "band_auc": 0.5561683870165403,
+    "band_accuracy": 0.5510455104551045,
+    "band_rows": 813
+  },
+  "best_exploratory": {
+    "name": "expanded_C.003",
+    "width": 22,
+    "C": 0.003,
+    "boundary_weighted": false,
+    "auc": 0.8955012533980776,
+    "f1_fixed": 0.8355704697986577,
+    "repeated_cross_threshold_f1": 0.835352948675355,
+    "seed_f1": [
+      0.8352201257861636,
+      0.8358770646038052,
+      0.8349616556360963
+    ],
+    "cut": 0.43018275720965565,
+    "accuracy": 0.8121930770152114,
+    "band_auc": 0.5632757119761224,
+    "band_accuracy": 0.5633456334563346,
+    "band_rows": 813
+  },
+  "baseline": {
+    "name": "baseline",
+    "width": 16,
+    "C": 0.01,
+    "boundary_weighted": false,
+    "auc": 0.8945392141316079,
+    "f1_fixed": 0.8348681456676433,
+    "repeated_cross_threshold_f1": 0.8344829878609651,
+    "seed_f1": [
+      0.8341898269533299,
+      0.835103060587133,
+      0.8341560760424325
+    ],
+    "cut": 0.4275409703544916,
+    "accuracy": 0.8109953287818901,
+    "band_auc": 0.5561683870165403,
+    "band_accuracy": 0.5510455104551045,
+    "band_rows": 813
+  },
+  "scope": "Repeated meta CV reuses base OOF: indirect leakage and selection bias remain."
+}

@@ -1,0 +1,7 @@
+{
+  "seconds": 325.3521320819855,
+  "train_rows": 8349,
+  "seed": 2,
+  "epochs": 30,
+  "descriptor_scaler_train_rows": 8349
+}

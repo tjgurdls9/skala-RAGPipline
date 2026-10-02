@@ -1,0 +1,443 @@
+{
+  "hold_rows": 8349,
+  "outer_folds": 5,
+  "inner_folds": 4,
+  "base_models": [
+    "lgb_fp2",
+    "svm_mk_p2_c3",
+    "chemprop"
+  ],
+  "hyperparameter_selection_caveat": "Fixed parameters were selected earlier using full-data CV. Base/meta fitting here excludes every outer validation label.",
+  "inference_rank_normalization": "Each holdout cohort, matching submission path",
+  "fold_reports": [
+    {
+      "hold_rows": 1670,
+      "train_pool_rows": 6679,
+      "inner_training_rows": 5009.25,
+      "hyperparameter_selection_caveat": "Earlier global tuning saw this fold; no outer labels enter fitting here.",
+      "cutoff_selected_inside_outer_train": 0.4174591985626773,
+      "inference_rank_normalization": "Each prediction cohort separately, matching Claude/final submission path",
+      "models": {
+        "lgb_fp2": {
+          "fold_average": {
+            "auc": 0.9031064735908545,
+            "f1": 0.8317234367056431,
+            "accuracy": 0.8017964071856287,
+            "cut": 0.2985234166160687
+          },
+          "refit": {
+            "auc": 0.9025412396693021,
+            "f1": 0.8403100775193798,
+            "accuracy": 0.8149700598802395,
+            "cut": 0.2985234166160687
+          }
+        },
+        "svm_mk_p2_c3": {
+          "fold_average": {
+            "auc": 0.8965043679137953,
+            "f1": 0.8332493702770781,
+            "accuracy": 0.8017964071856287,
+            "cut": -0.26665210984507903
+          },
+          "refit": {
+            "auc": 0.8957483133333044,
+            "f1": 0.833589349718382,
+            "accuracy": 0.8053892215568862,
+            "cut": -0.26665210984507903
+          }
+        },
+        "chemprop": {
+          "fold_average": {
+            "auc": 0.8878119086547287,
+            "f1": 0.8265048052604957,
+            "accuracy": 0.7946107784431138,
+            "cut": 0.3100202977657318
+          },
+          "refit": {
+            "auc": 0.881987541723949,
+            "f1": 0.8310880829015544,
+            "accuracy": 0.8047904191616766,
+            "cut": 0.3100202977657318
+          }
+        }
+      },
+      "fold_average": {
+        "auc": 0.9057779628159927,
+        "f1": 0.8351309707241911,
+        "accuracy": 0.8077844311377246,
+        "cut": 0.4174591985626773
+      },
+      "refit": {
+        "auc": 0.9059442080870375,
+        "f1": 0.8442159383033419,
+        "accuracy": 0.818562874251497,
+        "cut": 0.4174591985626773
+      },
+      "half_refit_half_cv": {
+        "auc": 0.906522452508063,
+        "f1": 0.8406988694758479,
+        "accuracy": 0.8143712574850299,
+        "cut": 0.4174591985626773
+      },
+      "paired_refit_f1_difference_interval_95": [
+        0.0027604874598041508,
+        0.015766690924872123
+      ]
+    },
+    {
+      "hold_rows": 1670,
+      "train_pool_rows": 6679,
+      "inner_training_rows": 5009.25,
+      "hyperparameter_selection_caveat": "Earlier global tuning saw this fold; no outer labels enter fitting here.",
+      "cutoff_selected_inside_outer_train": 0.41139267293652826,
+      "inference_rank_normalization": "Each prediction cohort separately, matching Claude/final submission path",
+      "models": {
+        "lgb_fp2": {
+          "fold_average": {
+            "auc": 0.881172217090303,
+            "f1": 0.8211660950514453,
+            "accuracy": 0.781437125748503,
+            "cut": 0.20682175862061913
+          },
+          "refit": {
+            "auc": 0.8784053175356956,
+            "f1": 0.8209476309226933,
+            "accuracy": 0.7850299401197605,
+            "cut": 0.20682175862061913
+          }
+        },
+        "svm_mk_p2_c3": {
+          "fold_average": {
+            "auc": 0.8732618334106733,
+            "f1": 0.8235902741852044,
+            "accuracy": 0.795808383233533,
+            "cut": -0.13867614057733435
+          },
+          "refit": {
+            "auc": 0.8705542039092214,
+            "f1": 0.8244514106583072,
+            "accuracy": 0.7988023952095809,
+            "cut": -0.13867614057733435
+          }
+        },
+        "chemprop": {
+          "fold_average": {
+            "auc": 0.864194960888993,
+            "f1": 0.8146679881070367,
+            "accuracy": 0.7760479041916167,
+            "cut": 0.30815207958221436
+          },
+          "refit": {
+            "auc": 0.8554808174641381,
+            "f1": 0.8107569721115537,
+            "accuracy": 0.7724550898203593,
+            "cut": 0.30815207958221436
+          }
+        }
+      },
+      "fold_average": {
+        "auc": 0.8828418978560142,
+        "f1": 0.8211173757047668,
+        "accuracy": 0.7910179640718563,
+        "cut": 0.41139267293652826
+      },
+      "refit": {
+        "auc": 0.8809105614897891,
+        "f1": 0.8235294117647058,
+        "accuracy": 0.7934131736526946,
+        "cut": 0.41139267293652826
+      },
+      "half_refit_half_cv": {
+        "auc": 0.882328705932354,
+        "f1": 0.8227459016393442,
+        "accuracy": 0.792814371257485,
+        "cut": 0.41139267293652826
+      },
+      "paired_refit_f1_difference_interval_95": [
+        -0.002669667232530079,
+        0.00799325492729465
+      ]
+    },
+    {
+      "hold_rows": 1670,
+      "train_pool_rows": 6679,
+      "inner_training_rows": 5009.25,
+      "hyperparameter_selection_caveat": "Earlier global tuning saw this fold; no outer labels enter fitting here.",
+      "cutoff_selected_inside_outer_train": 0.39346474293320177,
+      "inference_rank_normalization": "Each prediction cohort separately, matching Claude/final submission path",
+      "models": {
+        "lgb_fp2": {
+          "fold_average": {
+            "auc": 0.8743308242857308,
+            "f1": 0.811841445057702,
+            "accuracy": 0.7754491017964071,
+            "cut": 0.2363465106669376
+          },
+          "refit": {
+            "auc": 0.8773572906910866,
+            "f1": 0.8177594217862674,
+            "accuracy": 0.7886227544910179,
+            "cut": 0.2363465106669376
+          }
+        },
+        "svm_mk_p2_c3": {
+          "fold_average": {
+            "auc": 0.8710528749985548,
+            "f1": 0.8122362869198312,
+            "accuracy": 0.7868263473053893,
+            "cut": -0.1429652586275164
+          },
+          "refit": {
+            "auc": 0.8712465457236348,
+            "f1": 0.8123338649654439,
+            "accuracy": 0.7886227544910179,
+            "cut": -0.1429652586275164
+          }
+        },
+        "chemprop": {
+          "fold_average": {
+            "auc": 0.861343323274018,
+            "f1": 0.8065314200890649,
+            "accuracy": 0.7658682634730539,
+            "cut": 0.2391616776585579
+          },
+          "refit": {
+            "auc": 0.8542461583821847,
+            "f1": 0.797735460627895,
+            "accuracy": 0.7646706586826347,
+            "cut": 0.2391616776585579
+          }
+        }
+      },
+      "fold_average": {
+        "auc": 0.8776174453964181,
+        "f1": 0.8163265306122449,
+        "accuracy": 0.7844311377245509,
+        "cut": 0.39346474293320177
+      },
+      "refit": {
+        "auc": 0.8794486454611675,
+        "f1": 0.8197556008146639,
+        "accuracy": 0.7880239520958083,
+        "cut": 0.39346474293320177
+      },
+      "half_refit_half_cv": {
+        "auc": 0.8793272399320128,
+        "f1": 0.8164300202839757,
+        "accuracy": 0.7832335329341318,
+        "cut": 0.39346474293320177
+      },
+      "paired_refit_f1_difference_interval_95": [
+        -0.0031731348498248682,
+        0.009988124883846336
+      ]
+    },
+    {
+      "hold_rows": 1670,
+      "train_pool_rows": 6679,
+      "inner_training_rows": 5009.25,
+      "hyperparameter_selection_caveat": "Earlier global tuning saw this fold; no outer labels enter fitting here.",
+      "cutoff_selected_inside_outer_train": 0.3800640700473495,
+      "inference_rank_normalization": "Each prediction cohort separately, matching Claude/final submission path",
+      "models": {
+        "lgb_fp2": {
+          "fold_average": {
+            "auc": 0.8959186062645254,
+            "f1": 0.8254739912493924,
+            "accuracy": 0.7850299401197605,
+            "cut": 0.2155967680686205
+          },
+          "refit": {
+            "auc": 0.8959619653820806,
+            "f1": 0.8287841191066998,
+            "accuracy": 0.7934131736526946,
+            "cut": 0.2155967680686205
+          }
+        },
+        "svm_mk_p2_c3": {
+          "fold_average": {
+            "auc": 0.8918587475574363,
+            "f1": 0.8335056876938987,
+            "accuracy": 0.807185628742515,
+            "cut": -0.16584788969651088
+          },
+          "refit": {
+            "auc": 0.8893959496802987,
+            "f1": 0.8339444735463594,
+            "accuracy": 0.8101796407185629,
+            "cut": -0.16584788969651088
+          }
+        },
+        "chemprop": {
+          "fold_average": {
+            "auc": 0.8810847294969187,
+            "f1": 0.820079522862823,
+            "accuracy": 0.7832335329341318,
+            "cut": 0.32025399804115295
+          },
+          "refit": {
+            "auc": 0.8663137234497671,
+            "f1": 0.8142644873699851,
+            "accuracy": 0.7754491017964071,
+            "cut": 0.32025399804115295
+          }
+        }
+      },
+      "fold_average": {
+        "auc": 0.8997479389966122,
+        "f1": 0.8417880462079357,
+        "accuracy": 0.811377245508982,
+        "cut": 0.3800640700473495
+      },
+      "refit": {
+        "auc": 0.8978820516378184,
+        "f1": 0.8391959798994975,
+        "accuracy": 0.8083832335329342,
+        "cut": 0.3800640700473495
+      },
+      "half_refit_half_cv": {
+        "auc": 0.899778290378901,
+        "f1": 0.8403614457831325,
+        "accuracy": 0.8095808383233533,
+        "cut": 0.3800640700473495
+      },
+      "paired_refit_f1_difference_interval_95": [
+        -0.008368157021437488,
+        0.0032997802996388974
+      ]
+    },
+    {
+      "hold_rows": 1669,
+      "train_pool_rows": 6680,
+      "inner_training_rows": 5010.0,
+      "hyperparameter_selection_caveat": "Earlier global tuning saw this fold; no outer labels enter fitting here.",
+      "cutoff_selected_inside_outer_train": 0.3787923688581027,
+      "inference_rank_normalization": "Each prediction cohort separately, matching Claude/final submission path",
+      "models": {
+        "lgb_fp2": {
+          "fold_average": {
+            "auc": 0.9017363543216381,
+            "f1": 0.8438775510204082,
+            "accuracy": 0.8166566806470941,
+            "cut": 0.2942090242027714
+          },
+          "refit": {
+            "auc": 0.9024121981857862,
+            "f1": 0.8491446345256609,
+            "accuracy": 0.8256440982624326,
+            "cut": 0.2942090242027714
+          }
+        },
+        "svm_mk_p2_c3": {
+          "fold_average": {
+            "auc": 0.8973281735717552,
+            "f1": 0.8318407960199005,
+            "accuracy": 0.7974835230677052,
+            "cut": -0.3114041221229833
+          },
+          "refit": {
+            "auc": 0.8946494005684614,
+            "f1": 0.8362899138367967,
+            "accuracy": 0.8064709406830437,
+            "cut": -0.3114041221229833
+          }
+        },
+        "chemprop": {
+          "fold_average": {
+            "auc": 0.8776418693233456,
+            "f1": 0.8168734491315136,
+            "accuracy": 0.7789095266626722,
+            "cut": 0.2697111815214157
+          },
+          "refit": {
+            "auc": 0.871660578765478,
+            "f1": 0.8230535894843276,
+            "accuracy": 0.7902935889754344,
+            "cut": 0.2697111815214157
+          }
+        }
+      },
+      "fold_average": {
+        "auc": 0.9027436077037516,
+        "f1": 0.839294710327456,
+        "accuracy": 0.8088675853804673,
+        "cut": 0.3787923688581027
+      },
+      "refit": {
+        "auc": 0.9022356394032892,
+        "f1": 0.8419989904088844,
+        "accuracy": 0.8124625524266027,
+        "cut": 0.3787923688581027
+      },
+      "half_refit_half_cv": {
+        "auc": 0.9033760354738432,
+        "f1": 0.839979808177688,
+        "accuracy": 0.8100659077291792,
+        "cut": 0.3787923688581027
+      },
+      "paired_refit_f1_difference_interval_95": [
+        -0.0034865802796812087,
+        0.009271494089506518
+      ]
+    }
+  ],
+  "fold_average": {
+    "f1": 0.8307911328045556,
+    "auc": 0.893631132342482,
+    "accuracy": 0.8006946939753263,
+    "fold_f1": [
+      0.8351309707241911,
+      0.8211173757047668,
+      0.8163265306122449,
+      0.8417880462079357,
+      0.839294710327456
+    ]
+  },
+  "refit": {
+    "f1": 0.8337569903406202,
+    "auc": 0.8932701435176365,
+    "accuracy": 0.8041681638519583,
+    "fold_f1": [
+      0.8442159383033419,
+      0.8235294117647058,
+      0.8197556008146639,
+      0.8391959798994975,
+      0.8419989904088844
+    ]
+  },
+  "half_refit_half_cv": {
+    "f1": 0.832063395306309,
+    "auc": 0.8942130981458175,
+    "accuracy": 0.8020122170319799,
+    "fold_f1": [
+      0.8406988694758479,
+      0.8227459016393442,
+      0.8164300202839757,
+      0.8403614457831325,
+      0.839979808177688
+    ]
+  },
+  "boundary_band": {
+    "rows": 939,
+    "source": "Frozen nested fold-average scores in [.35,.50]",
+    "metrics": {
+      "fold_average": {
+        "auc": 0.5067575851889577,
+        "accuracy": 0.4696485623003195
+      },
+      "refit": {
+        "auc": 0.5370276056550566,
+        "accuracy": 0.5090521831735889
+      },
+      "half_refit_half_cv": {
+        "auc": 0.5279734789538711,
+        "accuracy": 0.4845580404685836
+      }
+    }
+  },
+  "paired_refit_f1_difference_interval_95": [
+    5.916789084633446e-05,
+    0.005771035314136848
+  ],
+  "scope": "3-model nested fitting comparison; not the final 16-model submission validation. No outer label enters fitting, but prior parameter selection remains global."
+}

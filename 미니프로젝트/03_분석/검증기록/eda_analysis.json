@@ -1,0 +1,145 @@
+{
+  "source": "train.csv",
+  "sha256": "1ee4605ab2c64e01e8d2ea0c0194736180bde8a2cffc6fd6cc3b072cfc3c1425",
+  "rows": 8349,
+  "original_columns": 3078,
+  "label_mapping": {
+    "0": "nontoxic",
+    "1": "toxic"
+  },
+  "dropped_columns": [
+    "ptfp_9",
+    "ptfp_37",
+    "ptfp_68",
+    "ptfp_100",
+    "ptfp_131",
+    "ptfp_141",
+    "ptfp_158",
+    "ptfp_161",
+    "ptfp_165",
+    "ptfp_173",
+    "ptfp_212",
+    "ptfp_217",
+    "ptfp_271",
+    "ptfp_296",
+    "ptfp_340",
+    "ptfp_343",
+    "ptfp_389",
+    "ptfp_390",
+    "ptfp_392",
+    "ptfp_393",
+    "ptfp_394",
+    "ptfp_429",
+    "ptfp_436",
+    "ptfp_465",
+    "ptfp_469",
+    "ptfp_474",
+    "ptfp_490",
+    "ptfp_512",
+    "ptfp_523",
+    "ptfp_527",
+    "ptfp_549",
+    "ptfp_617",
+    "ptfp_622",
+    "ptfp_673",
+    "ptfp_689",
+    "ptfp_702",
+    "ptfp_730",
+    "ptfp_740",
+    "ptfp_865",
+    "ptfp_898",
+    "ptfp_923",
+    "ptfp_937",
+    "ptfp_963",
+    "ptfp_967",
+    "ptfp_972",
+    "ptfp_993",
+    "ptfp_995",
+    "ptfp_1003",
+    "ptfp_1022"
+  ],
+  "retained_original_columns": 3029,
+  "added_columns": 126,
+  "output_columns": 3155,
+  "local_environment_state_columns": 97,
+  "radius": 2,
+  "rdkit_version": "2025.09.6",
+  "group_count": 33,
+  "conflict_rows": 73,
+  "opposite_label_pairs": 41,
+  "pair_types": {
+    "입체정보 지정 범위 차이": 8,
+    "전체 사면체 배치 반전 관계": 18,
+    "r/s를 포함한 입체배치 차이": 4,
+    "부분 입체배치 차이": 7,
+    "일부 미지정 상태에서의 입체배치 차이": 4
+  },
+  "validation": [
+    {
+      "features": "기존 숫자 특징",
+      "remaining_conflict_groups": 33,
+      "remaining_conflict_rows": 73,
+      "minimum_identical_input_errors": 34,
+      "scope": "전체8349행의 동일입력 진단; 예측성능 아님"
+    },
+    {
+      "features": "기존 + R/S/r/s/미지정 개수",
+      "remaining_conflict_groups": 5,
+      "remaining_conflict_rows": 12,
+      "minimum_identical_input_errors": 6,
+      "scope": "전체8349행의 동일입력 진단; 예측성능 아님"
+    },
+    {
+      "features": "기존 + chirality Morgan r2 1024",
+      "remaining_conflict_groups": 6,
+      "remaining_conflict_rows": 12,
+      "minimum_identical_input_errors": 6,
+      "scope": "전체8349행의 동일입력 진단; 예측성능 아님"
+    },
+    {
+      "features": "기존 + 주변환경×CIP count",
+      "remaining_conflict_groups": 0,
+      "remaining_conflict_rows": 0,
+      "minimum_identical_input_errors": 0,
+      "scope": "전체8349행의 동일입력 진단; 예측성능 아님"
+    },
+    {
+      "features": "기존 + 정규화 입체 SMILES (진단용)",
+      "remaining_conflict_groups": 0,
+      "remaining_conflict_rows": 0,
+      "minimum_identical_input_errors": 0,
+      "scope": "전체8349행의 동일입력 진단; 예측성능 아님"
+    }
+  ],
+  "quartile_edges": {
+    "MolWt": [
+      383.879,
+      441.522,
+      495.639
+    ],
+    "clogp": [
+      2.8745,
+      3.7351,
+      4.6525
+    ],
+    "sa_score": [
+      2.663425465,
+      3.093155219,
+      3.593546776
+    ],
+    "qed": [
+      0.425440426,
+      0.55641048,
+      0.700506257
+    ]
+  },
+  "checks": [
+    "8349 original rows/SMILES/labels/retained values preserved",
+    "49 PTFP constants removed",
+    "all 33 groups have identical canonical connectivity",
+    "atom-order invariance of local features on all 73 conflict rows",
+    "independent full exported numeric vector check has zero mixed-label identical inputs",
+    "source hash unchanged"
+  ],
+  "scope": "Exploratory conflict-selected vocabulary, no causal or held-out performance claim"
+}

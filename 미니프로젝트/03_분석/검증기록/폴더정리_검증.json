@@ -1,0 +1,11 @@
+{
+  "moved_files": 69,
+  "deleted_files": 0,
+  "input_and_artifact_hashes_unchanged": true,
+  "scripts_import_and_stereo_self_checks": "PASS",
+  "notebook_code_cells_executed": 10,
+  "notebook_test_outputs": "temporary_directory_only",
+  "reproduced_final_csv_hash_matches": true,
+  "remaining_conflicts": 0,
+  "local_markdown_links": "PASS"
+}

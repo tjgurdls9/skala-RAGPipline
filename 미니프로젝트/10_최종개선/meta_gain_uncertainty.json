@@ -1,0 +1,8 @@
+{
+  "repeated_f1_gain": 0.0008699608143899473,
+  "paired_bootstrap_interval_95": [
+    -0.0007081333517437061,
+    0.0024160392205510657
+  ],
+  "selection_estimate_only": true
+}

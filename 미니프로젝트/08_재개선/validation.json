@@ -1,0 +1,42 @@
+{
+  "csv_rows": 927,
+  "csv_columns": [
+    "SMILES",
+    "output"
+  ],
+  "smiles_exact_and_order_preserved": true,
+  "previous_submission_unchanged": true,
+  "protected_sources_unchanged": true,
+  "positive_means_safe": true,
+  "new_positive_count": 565,
+  "changed_from_first_submission": 32,
+  "cross_threshold_f1": 0.834575569358178,
+  "OOF_selected_threshold_metrics": {
+    "auc": 0.8954820530953145,
+    "f1_safe": 0.8349393845197389,
+    "accuracy": 0.809198706431908,
+    "precision_safe": 0.7886083382266589,
+    "recall_safe": 0.8870541611624835,
+    "recall_toxic": 0.7163120567375887,
+    "threshold": 0.4020884682990541,
+    "positive_rate": 0.6119295724038807,
+    "log_loss": 0.4048837846001904
+  },
+  "prior_metadata_recomputed": {
+    "0.577": {
+      "f1_safe": 0.8321401859172989,
+      "accuracy": 0.811833752545215,
+      "auc": 0.8926573242157342
+    },
+    "0.59": {
+      "f1_safe": 0.834178284748627,
+      "accuracy": 0.8119535273685471,
+      "auc": 0.8926573242157342
+    }
+  },
+  "submission_sha256": "6ed93ae731b395896537e7d8a30a604a6444e14b6dec482aecb84274f307b8f2",
+  "frozen_meta_replay_exact": true,
+  "submission_path": "08_재개선/제출용/predict_output_서혁인.csv",
+  "notebook_executed_code_cells": 6,
+  "notebook_errors": 0
+}

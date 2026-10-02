@@ -1,0 +1,6 @@
+﻿features,remaining_conflict_groups,remaining_conflict_rows,minimum_identical_input_errors,scope
+기존 숫자 특징,33,73,34,전체8349행의 동일입력 진단; 예측성능 아님
+기존 + R/S/r/s/미지정 개수,5,12,6,전체8349행의 동일입력 진단; 예측성능 아님
+기존 + chirality Morgan r2 1024,6,12,6,전체8349행의 동일입력 진단; 예측성능 아님
+기존 + 주변환경×CIP count,0,0,0,전체8349행의 동일입력 진단; 예측성능 아님
+기존 + 정규화 입체 SMILES (진단용),0,0,0,전체8349행의 동일입력 진단; 예측성능 아님

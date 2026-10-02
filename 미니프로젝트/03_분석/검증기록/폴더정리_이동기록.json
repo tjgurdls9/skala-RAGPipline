@@ -1,0 +1,568 @@
+{
+  "date": "2026-10-02",
+  "scope": "미니프로젝트 폴더",
+  "deleted_files": 0,
+  "moved_files": 69,
+  "path_updated_files": [
+    "make_compact_eda.py",
+    "run_stereo_eda.py",
+    "발표_10~15분_전체스크립트.md",
+    "발표용_전처리결정과AX비용.md",
+    "원본부터_최종_Morgan8_EDA.ipynb",
+    "충돌_EDA_분석.md"
+  ],
+  "records": [
+    {
+      "before": "PTFP_64조합_충돌진단.csv",
+      "after": "03_분석/진단표/PTFP_64조합_충돌진단.csv",
+      "bytes": 2552,
+      "sha256_before": "cb0b635f0d21d8a46c244bb2d8660b2587d519366a7c8b931615cc8e0506ff4c",
+      "sha256_after": "cb0b635f0d21d8a46c244bb2d8660b2587d519366a7c8b931615cc8e0506ff4c",
+      "path_text_updated": false
+    },
+    {
+      "before": "__pycache__/run_stereo_eda.cpython-311.pyc",
+      "after": "03_분석/스크립트/__pycache__/run_stereo_eda.cpython-311.pyc",
+      "bytes": 57375,
+      "sha256_before": "557b634ea6f37e26c4364cec4f159ef09d84f0bdb6d65f85b9eb80446b95b8df",
+      "sha256_after": "557b634ea6f37e26c4364cec4f159ef09d84f0bdb6d65f85b9eb80446b95b8df",
+      "path_text_updated": false
+    },
+    {
+      "before": "compact_eda_audit.json",
+      "after": "03_분석/검증기록/compact_eda_audit.json",
+      "bytes": 3595,
+      "sha256_before": "be0618a193d60f7846b8511f37e49ddf83e585d0fdcd4fe7d84e3b731678c370",
+      "sha256_after": "be0618a193d60f7846b8511f37e49ddf83e585d0fdcd4fe7d84e3b731678c370",
+      "path_text_updated": false
+    },
+    {
+      "before": "eda_analysis.json",
+      "after": "03_분석/검증기록/eda_analysis.json",
+      "bytes": 3634,
+      "sha256_before": "ff1f35ebc153d49bac9b4f3aa07104117dafc5f89e622233db4300e6155c2821",
+      "sha256_after": "ff1f35ebc153d49bac9b4f3aa07104117dafc5f89e622233db4300e6155c2821",
+      "path_text_updated": false
+    },
+    {
+      "before": "make_compact_eda.py",
+      "after": "03_분석/스크립트/make_compact_eda.py",
+      "bytes": 9840,
+      "sha256_before": "c6bec7d838cddcada206dd420aa1c4247146358c3cc567616cc86e0efcb1264a",
+      "sha256_after": "300ccdad093e1e92503856ab6080f05be685dfc833d36c6c01c7c086833fd0bb",
+      "path_text_updated": true
+    },
+    {
+      "before": "predict_input.csv",
+      "after": "01_원본자료/predict_input.csv",
+      "bytes": 5813443,
+      "sha256_before": "a514acd0f8729daa17bcdc43a70b96abca57f527113bce5dbb90baeadfc7251b",
+      "sha256_after": "a514acd0f8729daa17bcdc43a70b96abca57f527113bce5dbb90baeadfc7251b",
+      "path_text_updated": false
+    },
+    {
+      "before": "predict_output_홍길동.csv",
+      "after": "01_원본자료/predict_output_홍길동.csv",
+      "bytes": 56358,
+      "sha256_before": "63b94b4846b54f973c33c49ab2000db4eeeb32fbd4e9d69ea710e81f32e007ed",
+      "sha256_after": "63b94b4846b54f973c33c49ab2000db4eeeb32fbd4e9d69ea710e81f32e007ed",
+      "path_text_updated": false
+    },
+    {
+      "before": "run_stereo_eda.py",
+      "after": "03_분석/스크립트/run_stereo_eda.py",
+      "bytes": 27830,
+      "sha256_before": "0f39cfffc044cd461c408037552e1a4723280eda923832e018300ea681d4146f",
+      "sha256_after": "1208872721e48212dfffdeac3561c18cfa08a20fa3209cb556264b60ffc3db26",
+      "path_text_updated": true
+    },
+    {
+      "before": "train.csv",
+      "after": "02_데이터/train.csv",
+      "bytes": 52154470,
+      "sha256_before": "1ee4605ab2c64e01e8d2ea0c0194736180bde8a2cffc6fd6cc3b072cfc3c1425",
+      "sha256_after": "1ee4605ab2c64e01e8d2ea0c0194736180bde8a2cffc6fd6cc3b072cfc3c1425",
+      "path_text_updated": false
+    },
+    {
+      "before": "train_eda.csv",
+      "after": "02_데이터/중간결과/train_eda.csv",
+      "bytes": 51470906,
+      "sha256_before": "328fb3fd5aecf02fe738b1b331a92e247a05f6ce3e2451725684ca023096c961",
+      "sha256_after": "328fb3fd5aecf02fe738b1b331a92e247a05f6ce3e2451725684ca023096c961",
+      "path_text_updated": false
+    },
+    {
+      "before": "train_eda_cip_fp.csv",
+      "after": "02_데이터/중간결과/train_eda_cip_fp.csv",
+      "bytes": 51341975,
+      "sha256_before": "428db350a3b027fb15804b95eee418f522fef53571cf0ed8b8b7ec4990309e44",
+      "sha256_after": "428db350a3b027fb15804b95eee418f522fef53571cf0ed8b8b7ec4990309e44",
+      "path_text_updated": false
+    },
+    {
+      "before": "train_eda_exploratory126.csv",
+      "after": "02_데이터/중간결과/train_eda_exploratory126.csv",
+      "bytes": 53858150,
+      "sha256_before": "8fb34d8b9f06814aaa5b4c51a09da26af00ee0bc8dc6152ca4432e1e8128645a",
+      "sha256_after": "8fb34d8b9f06814aaa5b4c51a09da26af00ee0bc8dc6152ca4432e1e8128645a",
+      "path_text_updated": false
+    },
+    {
+      "before": "train_final_morgan_8vars.csv",
+      "after": "02_데이터/train_final_morgan_8vars.csv",
+      "bytes": 51462560,
+      "sha256_before": "c7afd206aa46c1a830d8fb9bdede141269fccdcaac7e9d90011db54749b4ffe4",
+      "sha256_after": "c7afd206aa46c1a830d8fb9bdede141269fccdcaac7e9d90011db54749b4ffe4",
+      "path_text_updated": false
+    },
+    {
+      "before": "train_original_labels.csv.bak",
+      "after": "01_원본자료/train_original_labels.csv.bak",
+      "bytes": 52154470,
+      "sha256_before": "cb7118a9533e36d81cdb4aa2e9318e9fa0b80faa70d132d7d3b2009e81fca5d8",
+      "sha256_after": "cb7118a9533e36d81cdb4aa2e9318e9fa0b80faa70d132d7d3b2009e81fca5d8",
+      "path_text_updated": false
+    },
+    {
+      "before": "계산독성학_30분_가이드.md",
+      "after": "03_분석/보고서/계산독성학_30분_가이드.md",
+      "bytes": 31848,
+      "sha256_before": "95a7bc4b787c09ed0c465d117283c624236ac967ae3fad63439bb7a7220acaa7",
+      "sha256_after": "95a7bc4b787c09ed0c465d117283c624236ac967ae3fad63439bb7a7220acaa7",
+      "path_text_updated": false
+    },
+    {
+      "before": "데이터분석 및 AIOps_7.데이터분석 Mini Project_박병선p.pdf",
+      "after": "01_원본자료/데이터분석 및 AIOps_7.데이터분석 Mini Project_박병선p.pdf",
+      "bytes": 1509545,
+      "sha256_before": "0b22821b5688ce8bb5d18c768c23b9d30a1b36036466a47dcfeb2c6070a0d6cb",
+      "sha256_after": "0b22821b5688ce8bb5d18c768c23b9d30a1b36036466a47dcfeb2c6070a0d6cb",
+      "path_text_updated": false
+    },
+    {
+      "before": "발표_10~15분_전체스크립트.md",
+      "after": "05_발표/발표_10~15분_전체스크립트.md",
+      "bytes": 33665,
+      "sha256_before": "1138a8ba46b8dcc57383bfc088ec03f8223676a94f7955633d0741e56a38c03b",
+      "sha256_after": "bf9304a465d2c0d327f884c2b9851299891da360d3b74e59e7fc8e01fafc7f23",
+      "path_text_updated": true
+    },
+    {
+      "before": "발표_PPT/1반3조_Serif/10장_발표자노트.md",
+      "after": "05_발표/최종_1반3조_Serif/10장_발표자노트.md",
+      "bytes": 13250,
+      "sha256_before": "6cb621ba0bda57a423a83e8e31b102bc700d0c9ea5d5d811d66f19b2ff23e86b",
+      "sha256_after": "6cb621ba0bda57a423a83e8e31b102bc700d0c9ea5d5d811d66f19b2ff23e86b",
+      "path_text_updated": false
+    },
+    {
+      "before": "발표_PPT/1반3조_Serif/C03_입체구조.png",
+      "after": "05_발표/최종_1반3조_Serif/C03_입체구조.png",
+      "bytes": 41545,
+      "sha256_before": "fdd78ab07bc0ad1810f50ebeda2da22ba13b23480323a2dc5a2937429a4213e2",
+      "sha256_after": "fdd78ab07bc0ad1810f50ebeda2da22ba13b23480323a2dc5a2937429a4213e2",
+      "path_text_updated": false
+    },
+    {
+      "before": "발표_PPT/1반3조_Serif/독성_EDA_1반3조_Serif.pdf",
+      "after": "05_발표/최종_1반3조_Serif/독성_EDA_1반3조_Serif.pdf",
+      "bytes": 924584,
+      "sha256_before": "fbc0b38a0ed2a547dbcce231fc15b7c8cd41a1d66607e30702327e59bd4d57c2",
+      "sha256_after": "fbc0b38a0ed2a547dbcce231fc15b7c8cd41a1d66607e30702327e59bd4d57c2",
+      "path_text_updated": false
+    },
+    {
+      "before": "발표_PPT/1반3조_Serif/독성_EDA_1반3조_Serif.pptx",
+      "after": "05_발표/최종_1반3조_Serif/독성_EDA_1반3조_Serif.pptx",
+      "bytes": 115691,
+      "sha256_before": "468222700dd26a1aa05079d3bfbd980328eb4f23684ff462a6c2b87d4764b190",
+      "sha256_after": "468222700dd26a1aa05079d3bfbd980328eb4f23684ff462a6c2b87d4764b190",
+      "path_text_updated": false
+    },
+    {
+      "before": "발표_PPT/1반3조_Serif/수정내용과디자인선택.md",
+      "after": "05_발표/최종_1반3조_Serif/수정내용과디자인선택.md",
+      "bytes": 3592,
+      "sha256_before": "efe7a1c9e059e809ceef809f7c3363bc70c8f0b5ee85c039f9279e373138ea27",
+      "sha256_after": "efe7a1c9e059e809ceef809f7c3363bc70c8f0b5ee85c039f9279e373138ea27",
+      "path_text_updated": false
+    },
+    {
+      "before": "발표_PPT/1반3조_Serif/슬라이드_01.png",
+      "after": "05_발표/최종_1반3조_Serif/슬라이드_01.png",
+      "bytes": 109033,
+      "sha256_before": "a3f233cf4413754d3801d3152f459c648cb702ec65b3b8ead5fd8a96e920a1e7",
+      "sha256_after": "a3f233cf4413754d3801d3152f459c648cb702ec65b3b8ead5fd8a96e920a1e7",
+      "path_text_updated": false
+    },
+    {
+      "before": "발표_PPT/1반3조_Serif/슬라이드_02.png",
+      "after": "05_발표/최종_1반3조_Serif/슬라이드_02.png",
+      "bytes": 147931,
+      "sha256_before": "f18384b2ff87958afa31bd913b69217d00855fced882c42e122fdfebeaf2434e",
+      "sha256_after": "f18384b2ff87958afa31bd913b69217d00855fced882c42e122fdfebeaf2434e",
+      "path_text_updated": false
+    },
+    {
+      "before": "발표_PPT/1반3조_Serif/슬라이드_03.png",
+      "after": "05_발표/최종_1반3조_Serif/슬라이드_03.png",
+      "bytes": 166308,
+      "sha256_before": "3b6acc60ce194fc89d4e8f87c45f4d2b88b5a13c1b2ca73431ac2aefdbac398b",
+      "sha256_after": "3b6acc60ce194fc89d4e8f87c45f4d2b88b5a13c1b2ca73431ac2aefdbac398b",
+      "path_text_updated": false
+    },
+    {
+      "before": "발표_PPT/1반3조_Serif/슬라이드_04.png",
+      "after": "05_발표/최종_1반3조_Serif/슬라이드_04.png",
+      "bytes": 168098,
+      "sha256_before": "a4e66a579a2de99dd3dd0b5efd1449b9fdf998a3320ebd492b10472b5f4e587c",
+      "sha256_after": "a4e66a579a2de99dd3dd0b5efd1449b9fdf998a3320ebd492b10472b5f4e587c",
+      "path_text_updated": false
+    },
+    {
+      "before": "발표_PPT/1반3조_Serif/슬라이드_05.png",
+      "after": "05_발표/최종_1반3조_Serif/슬라이드_05.png",
+      "bytes": 196798,
+      "sha256_before": "b9a0c2694345122b1344f28278a15cc51dda0681c6fba37671228c77604f1b3e",
+      "sha256_after": "b9a0c2694345122b1344f28278a15cc51dda0681c6fba37671228c77604f1b3e",
+      "path_text_updated": false
+    },
+    {
+      "before": "발표_PPT/1반3조_Serif/슬라이드_06.png",
+      "after": "05_발표/최종_1반3조_Serif/슬라이드_06.png",
+      "bytes": 191450,
+      "sha256_before": "5eee5ce2049e7daf682ea411528f8d803fdbd529992ebc584a547de2396eb54b",
+      "sha256_after": "5eee5ce2049e7daf682ea411528f8d803fdbd529992ebc584a547de2396eb54b",
+      "path_text_updated": false
+    },
+    {
+      "before": "발표_PPT/1반3조_Serif/슬라이드_07.png",
+      "after": "05_발표/최종_1반3조_Serif/슬라이드_07.png",
+      "bytes": 194154,
+      "sha256_before": "f1527a6c908acc3ee0efc779f72cc166360d4f247949eee0de8f186cc0c10d8a",
+      "sha256_after": "f1527a6c908acc3ee0efc779f72cc166360d4f247949eee0de8f186cc0c10d8a",
+      "path_text_updated": false
+    },
+    {
+      "before": "발표_PPT/1반3조_Serif/슬라이드_08.png",
+      "after": "05_발표/최종_1반3조_Serif/슬라이드_08.png",
+      "bytes": 169258,
+      "sha256_before": "bc93cd28d4152ce6f62543f83d832f38f2d2e4dd55ca247b6ba245c6b12f34fe",
+      "sha256_after": "bc93cd28d4152ce6f62543f83d832f38f2d2e4dd55ca247b6ba245c6b12f34fe",
+      "path_text_updated": false
+    },
+    {
+      "before": "발표_PPT/1반3조_Serif/슬라이드_09.png",
+      "after": "05_발표/최종_1반3조_Serif/슬라이드_09.png",
+      "bytes": 170760,
+      "sha256_before": "c7129029016d0d86542525c5c05ff932d4c779df0925ddfeee8043ac5b62322c",
+      "sha256_after": "c7129029016d0d86542525c5c05ff932d4c779df0925ddfeee8043ac5b62322c",
+      "path_text_updated": false
+    },
+    {
+      "before": "발표_PPT/1반3조_Serif/슬라이드_10.png",
+      "after": "05_발표/최종_1반3조_Serif/슬라이드_10.png",
+      "bytes": 121846,
+      "sha256_before": "476c5f7dd92ae2978e0aa83f41f37fe387c632814ad409e6ffcf42ffd8684935",
+      "sha256_after": "476c5f7dd92ae2978e0aa83f41f37fe387c632814ad409e6ffcf42ffd8684935",
+      "path_text_updated": false
+    },
+    {
+      "before": "발표_PPT/1반3조_Serif/전체_미리보기.png",
+      "after": "05_발표/최종_1반3조_Serif/전체_미리보기.png",
+      "bytes": 613338,
+      "sha256_before": "5f6a718895695bac83ca5ccf397effbb347c192c2d105bed046a00dc37752817",
+      "sha256_after": "5f6a718895695bac83ca5ccf397effbb347c192c2d105bed046a00dc37752817",
+      "path_text_updated": false
+    },
+    {
+      "before": "발표_PPT/1반3조_Serif/최종검토.json",
+      "after": "05_발표/최종_1반3조_Serif/최종검토.json",
+      "bytes": 267,
+      "sha256_before": "4f8a7b867b0cd0b74f7a9fe8c20a3ac84f5bebaf232d35bd2d2f1d6346bf6b7c",
+      "sha256_after": "4f8a7b867b0cd0b74f7a9fe8c20a3ac84f5bebaf232d35bd2d2f1d6346bf6b7c",
+      "path_text_updated": false
+    },
+    {
+      "before": "발표_PPT/1반3조_Serif/코멘트_수정검토.json",
+      "after": "05_발표/최종_1반3조_Serif/코멘트_수정검토.json",
+      "bytes": 526,
+      "sha256_before": "34ede7befc6cc6eafe7ca53ed5cdc0f3b65bb8b5e3a66577130e20f27c7f681a",
+      "sha256_after": "34ede7befc6cc6eafe7ca53ed5cdc0f3b65bb8b5e3a66577130e20f27c7f681a",
+      "path_text_updated": false
+    },
+    {
+      "before": "발표_PPT/1반3조_Serif/표지.png",
+      "after": "05_발표/최종_1반3조_Serif/표지.png",
+      "bytes": 109033,
+      "sha256_before": "a3f233cf4413754d3801d3152f459c648cb702ec65b3b8ead5fd8a96e920a1e7",
+      "sha256_after": "a3f233cf4413754d3801d3152f459c648cb702ec65b3b8ead5fd8a96e920a1e7",
+      "path_text_updated": false
+    },
+    {
+      "before": "발표_PPT/6장_발표자노트.md",
+      "after": "05_발표/이전버전_6장/6장_발표자노트.md",
+      "bytes": 11246,
+      "sha256_before": "f1d8e95406e86238ccc33c46f8b82580c7794f11e2703e0e3a9bf2cb4cd15bf0",
+      "sha256_after": "f1d8e95406e86238ccc33c46f8b82580c7794f11e2703e0e3a9bf2cb4cd15bf0",
+      "path_text_updated": false
+    },
+    {
+      "before": "발표_PPT/C03_입체구조.png",
+      "after": "05_발표/이전버전_6장/C03_입체구조.png",
+      "bytes": 41545,
+      "sha256_before": "fdd78ab07bc0ad1810f50ebeda2da22ba13b23480323a2dc5a2937429a4213e2",
+      "sha256_after": "fdd78ab07bc0ad1810f50ebeda2da22ba13b23480323a2dc5a2937429a4213e2",
+      "path_text_updated": false
+    },
+    {
+      "before": "발표_PPT/독성_EDA_6장_Bauhaus.pdf",
+      "after": "05_발표/이전버전_6장/독성_EDA_6장_Bauhaus.pdf",
+      "bytes": 400993,
+      "sha256_before": "ba33b6796bd928d4245c41dfa9c84de703d1d43dec0632baee26f06d87971e46",
+      "sha256_after": "ba33b6796bd928d4245c41dfa9c84de703d1d43dec0632baee26f06d87971e46",
+      "path_text_updated": false
+    },
+    {
+      "before": "발표_PPT/독성_EDA_6장_Bauhaus.pptx",
+      "after": "05_발표/이전버전_6장/독성_EDA_6장_Bauhaus.pptx",
+      "bytes": 98892,
+      "sha256_before": "3eecabdde253f67197c3f45fb72ae64986bd4c96bc118715b82c421439ce21f6",
+      "sha256_after": "3eecabdde253f67197c3f45fb72ae64986bd4c96bc118715b82c421439ce21f6",
+      "path_text_updated": false
+    },
+    {
+      "before": "발표_PPT/디자인_옵션비교와선택.md",
+      "after": "05_발표/이전버전_6장/디자인_옵션비교와선택.md",
+      "bytes": 8877,
+      "sha256_before": "0df28855b9de7ce717d1f0e9d592099cce151101ddfc60ae1d4616ade95a41ec",
+      "sha256_after": "0df28855b9de7ce717d1f0e9d592099cce151101ddfc60ae1d4616ade95a41ec",
+      "path_text_updated": false
+    },
+    {
+      "before": "발표_PPT/슬라이드_01.png",
+      "after": "05_발표/이전버전_6장/슬라이드_01.png",
+      "bytes": 132820,
+      "sha256_before": "465e6cae781659fed62f73f595377b1badb6f5a69138315873f58ea0b7a0fdbb",
+      "sha256_after": "465e6cae781659fed62f73f595377b1badb6f5a69138315873f58ea0b7a0fdbb",
+      "path_text_updated": false
+    },
+    {
+      "before": "발표_PPT/슬라이드_02.png",
+      "after": "05_발표/이전버전_6장/슬라이드_02.png",
+      "bytes": 152616,
+      "sha256_before": "48bf2131bd17613941078e683d4e08fca1aac0a032456c0d76e193fb037fab95",
+      "sha256_after": "48bf2131bd17613941078e683d4e08fca1aac0a032456c0d76e193fb037fab95",
+      "path_text_updated": false
+    },
+    {
+      "before": "발표_PPT/슬라이드_03.png",
+      "after": "05_발표/이전버전_6장/슬라이드_03.png",
+      "bytes": 156320,
+      "sha256_before": "dae9288e3fc27bb43a889ee433c6e5b26c5c7c83d76bfebb4ea2c74a45006295",
+      "sha256_after": "dae9288e3fc27bb43a889ee433c6e5b26c5c7c83d76bfebb4ea2c74a45006295",
+      "path_text_updated": false
+    },
+    {
+      "before": "발표_PPT/슬라이드_04.png",
+      "after": "05_발표/이전버전_6장/슬라이드_04.png",
+      "bytes": 174839,
+      "sha256_before": "c831ae0c4d7a9319c8ab507f48a1a9ebb699e3345c2cfb324448b6015735797d",
+      "sha256_after": "c831ae0c4d7a9319c8ab507f48a1a9ebb699e3345c2cfb324448b6015735797d",
+      "path_text_updated": false
+    },
+    {
+      "before": "발표_PPT/슬라이드_05.png",
+      "after": "05_발표/이전버전_6장/슬라이드_05.png",
+      "bytes": 153615,
+      "sha256_before": "b445cd8ded997e2e1cc2247b2f83072b92f82fd272349e185f28f98a978fc26b",
+      "sha256_after": "b445cd8ded997e2e1cc2247b2f83072b92f82fd272349e185f28f98a978fc26b",
+      "path_text_updated": false
+    },
+    {
+      "before": "발표_PPT/슬라이드_06.png",
+      "after": "05_발표/이전버전_6장/슬라이드_06.png",
+      "bytes": 152932,
+      "sha256_before": "236de4de1fc4768273cbc7d9209159a9da47ebb53f7318145bd750312f9e04e6",
+      "sha256_after": "236de4de1fc4768273cbc7d9209159a9da47ebb53f7318145bd750312f9e04e6",
+      "path_text_updated": false
+    },
+    {
+      "before": "발표_PPT/전체_미리보기.png",
+      "after": "05_발표/이전버전_6장/전체_미리보기.png",
+      "bytes": 567443,
+      "sha256_before": "51e4a6ee3d3347e217014d11c54ccfbef837724ae02dcd0a1a9f1d2d2b8c6b8c",
+      "sha256_after": "51e4a6ee3d3347e217014d11c54ccfbef837724ae02dcd0a1a9f1d2d2b8c6b8c",
+      "path_text_updated": false
+    },
+    {
+      "before": "발표_PPT/최종검토.json",
+      "after": "05_발표/이전버전_6장/최종검토.json",
+      "bytes": 338,
+      "sha256_before": "8143a36063e9480b3405d06636958e29d83cac09aa41d556fb3e2dfb3f4ceb3b",
+      "sha256_after": "8143a36063e9480b3405d06636958e29d83cac09aa41d556fb3e2dfb3f4ceb3b",
+      "path_text_updated": false
+    },
+    {
+      "before": "발표_시각화/01_label.png",
+      "after": "03_분석/시각화/01_label.png",
+      "bytes": 17763,
+      "sha256_before": "8f0f6b0c1c56a26288d6b2861acec5ee6e6aaf14d5cfadd76c55f4786262b3e4",
+      "sha256_after": "8f0f6b0c1c56a26288d6b2861acec5ee6e6aaf14d5cfadd76c55f4786262b3e4",
+      "path_text_updated": false
+    },
+    {
+      "before": "발표_시각화/02_충돌감소.png",
+      "after": "03_분석/시각화/02_충돌감소.png",
+      "bytes": 33092,
+      "sha256_before": "3b989449270e2759bc2968e6c322d8fc1376d241bdff3835ce5b2dde207abd39",
+      "sha256_after": "3b989449270e2759bc2968e6c322d8fc1376d241bdff3835ce5b2dde207abd39",
+      "path_text_updated": false
+    },
+    {
+      "before": "발표_시각화/03_33그룹_검증.png",
+      "after": "03_분석/시각화/03_33그룹_검증.png",
+      "bytes": 82523,
+      "sha256_before": "913cfdb3220dc81b509a492570d5e7c3e975bca8f6c3e3e25770f91f82a13a0a",
+      "sha256_after": "913cfdb3220dc81b509a492570d5e7c3e975bca8f6c3e3e25770f91f82a13a0a",
+      "path_text_updated": false
+    },
+    {
+      "before": "발표_시각화/04_구조예시.png",
+      "after": "03_분석/시각화/04_구조예시.png",
+      "bytes": 50270,
+      "sha256_before": "dc8647f76451ed508856d0a3b3041829271a1f9b8ee0d8ea9f8c30f3694e432d",
+      "sha256_after": "dc8647f76451ed508856d0a3b3041829271a1f9b8ee0d8ea9f8c30f3694e432d",
+      "path_text_updated": false
+    },
+    {
+      "before": "발표_시각화/05_AX비용.png",
+      "after": "03_분석/시각화/05_AX비용.png",
+      "bytes": 17775,
+      "sha256_before": "4824a59a064aa07a0902e44123def692b936fa0e8a6df8db4c8785a3e861e06d",
+      "sha256_after": "4824a59a064aa07a0902e44123def692b936fa0e8a6df8db4c8785a3e861e06d",
+      "path_text_updated": false
+    },
+    {
+      "before": "발표용_전처리결정과AX비용.md",
+      "after": "03_분석/보고서/발표용_전처리결정과AX비용.md",
+      "bytes": 9636,
+      "sha256_before": "307af6b2b4a2c7045fab64be5bf5e544d9e90e41268d07454c5f16ddec951478",
+      "sha256_after": "dfbda434662de7452ea380d6d3331a4bea6c47371bbd59bf5a3c8c1081811646",
+      "path_text_updated": true
+    },
+    {
+      "before": "운영후보_8변수_사전.csv",
+      "after": "03_분석/진단표/운영후보_8변수_사전.csv",
+      "bytes": 1552,
+      "sha256_before": "6f4f8013cffaae8ee363a8180b24d4328b0d49f1f55d6b1abed6b0f8fac4a882",
+      "sha256_after": "6f4f8013cffaae8ee363a8180b24d4328b0d49f1f55d6b1abed6b0f8fac4a882",
+      "path_text_updated": false
+    },
+    {
+      "before": "원본부터_최종_Morgan8_EDA.ipynb",
+      "after": "04_노트북/원본부터_최종_Morgan8_EDA.ipynb",
+      "bytes": 346408,
+      "sha256_before": "2fe0d43cffac3cfab9f64bf06a79bc47fa47621c7ffa405ec94c74b81c1bd632",
+      "sha256_after": "7b9107622665316d808be16e6a3a01c83fe5b236c1261469125e517bcf70192f",
+      "path_text_updated": true
+    },
+    {
+      "before": "입체_파생변수_사전.csv",
+      "after": "03_분석/진단표/입체_파생변수_사전.csv",
+      "bytes": 12740,
+      "sha256_before": "d9bcb1c6edda964c173b1d5a9293b7a45257a6da6c313993be38a0f142538891",
+      "sha256_after": "d9bcb1c6edda964c173b1d5a9293b7a45257a6da6c313993be38a0f142538891",
+      "path_text_updated": false
+    },
+    {
+      "before": "입체차이_예시_C04.png",
+      "after": "03_분석/시각화/입체차이_예시_C04.png",
+      "bytes": 54410,
+      "sha256_before": "734cfaf453e503c77a782ef27b53e9c785a0485ca0adc73c9c07611cd27e3581",
+      "sha256_after": "734cfaf453e503c77a782ef27b53e9c785a0485ca0adc73c9c07611cd27e3581",
+      "path_text_updated": false
+    },
+    {
+      "before": "입체환경_기존지표연관.csv",
+      "after": "03_분석/진단표/입체환경_기존지표연관.csv",
+      "bytes": 17774,
+      "sha256_before": "e7aeeab2ccf3675e362bcbdd6a684c8e87cafc241387ed2eb3b4c8b3907adf20",
+      "sha256_after": "e7aeeab2ccf3675e362bcbdd6a684c8e87cafc241387ed2eb3b4c8b3907adf20",
+      "path_text_updated": false
+    },
+    {
+      "before": "입체환경_독성패턴.csv",
+      "after": "03_분석/진단표/입체환경_독성패턴.csv",
+      "bytes": 21638,
+      "sha256_before": "9be3f0a775f3170652991b36081cb543b2f5fcfef8b9d684eb33842fe158dba2",
+      "sha256_after": "9be3f0a775f3170652991b36081cb543b2f5fcfef8b9d684eb33842fe158dba2",
+      "path_text_updated": false
+    },
+    {
+      "before": "입체환경_물성조건별패턴.csv",
+      "after": "03_분석/진단표/입체환경_물성조건별패턴.csv",
+      "bytes": 144821,
+      "sha256_before": "e29fc03fe33bdf73e9af20270b51a8c548ae9320f0792e77ddda39c38ed1c23c",
+      "sha256_after": "e29fc03fe33bdf73e9af20270b51a8c548ae9320f0792e77ddda39c38ed1c23c",
+      "path_text_updated": false
+    },
+    {
+      "before": "최종_Morgan8_검증.json",
+      "after": "03_분석/검증기록/최종_Morgan8_검증.json",
+      "bytes": 2999,
+      "sha256_before": "275595ef231b4500114bd8a65b7bba1ce01698ce23d9de8774585476a781b134",
+      "sha256_after": "275595ef231b4500114bd8a65b7bba1ce01698ce23d9de8774585476a781b134",
+      "path_text_updated": false
+    },
+    {
+      "before": "충돌33그룹_구조단서.csv",
+      "after": "03_분석/진단표/충돌33그룹_구조단서.csv",
+      "bytes": 10903,
+      "sha256_before": "45d0b56eb2590e662cf64ab80c27546e896a8a7f1607765665de016ffbedf5f1",
+      "sha256_after": "45d0b56eb2590e662cf64ab80c27546e896a8a7f1607765665de016ffbedf5f1",
+      "path_text_updated": false
+    },
+    {
+      "before": "충돌33그룹_구조비교.pdf",
+      "after": "03_분석/구조비교/충돌33그룹_구조비교.pdf",
+      "bytes": 2653610,
+      "sha256_before": "2dcf902e67bf52ee5e187c60a2c4be995a5c01e3cae4517b211cc47299fba8ff",
+      "sha256_after": "2dcf902e67bf52ee5e187c60a2c4be995a5c01e3cae4517b211cc47299fba8ff",
+      "path_text_updated": false
+    },
+    {
+      "before": "충돌33그룹_입체분석.csv",
+      "after": "03_분석/진단표/충돌33그룹_입체분석.csv",
+      "bytes": 34579,
+      "sha256_before": "be2885e02983ac1c1f1fe2b245a4730a861cd097e5bae93450fb44763d036b5d",
+      "sha256_after": "be2885e02983ac1c1f1fe2b245a4730a861cd097e5bae93450fb44763d036b5d",
+      "path_text_updated": false
+    },
+    {
+      "before": "충돌_EDA_분석.md",
+      "after": "03_분석/보고서/충돌_EDA_분석.md",
+      "bytes": 24885,
+      "sha256_before": "3686dfb5dc3c1eacc09178707d22ca42113f64fe4c75aa82b5e8d9f92e6a983d",
+      "sha256_after": "11608e8d3c1e797f81465234d902b6f29ade8365186377fcaa5c22270b99a444",
+      "path_text_updated": true
+    },
+    {
+      "before": "충돌_대립label_쌍별차이.csv",
+      "after": "03_분석/진단표/충돌_대립label_쌍별차이.csv",
+      "bytes": 17615,
+      "sha256_before": "5f47b9086f91ebd9085f21add3bfe2bea7aa44be1c1d251dffe20ede57800f68",
+      "sha256_after": "5f47b9086f91ebd9085f21add3bfe2bea7aa44be1c1d251dffe20ede57800f68",
+      "path_text_updated": false
+    },
+    {
+      "before": "충돌_파생변수검증.csv",
+      "after": "03_분석/진단표/충돌_파생변수검증.csv",
+      "bytes": 597,
+      "sha256_before": "8a737d660ffafd7dff030c55b7102edbcc3520f3f206f6e37ba62f015c59f2ab",
+      "sha256_after": "8a737d660ffafd7dff030c55b7102edbcc3520f3f206f6e37ba62f015c59f2ab",
+      "path_text_updated": false
+    }
+  ]
+}

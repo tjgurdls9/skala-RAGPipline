@@ -1,0 +1,74 @@
+{
+  "hold_rows": 1670,
+  "train_pool_rows": 6679,
+  "inner_training_rows": 5009.25,
+  "hyperparameter_selection_caveat": "Earlier global tuning saw this fold; no outer labels enter fitting here.",
+  "cutoff_selected_inside_outer_train": 0.41139267293652826,
+  "inference_rank_normalization": "Each prediction cohort separately, matching Claude/final submission path",
+  "models": {
+    "lgb_fp2": {
+      "fold_average": {
+        "auc": 0.881172217090303,
+        "f1": 0.8211660950514453,
+        "accuracy": 0.781437125748503,
+        "cut": 0.20682175862061913
+      },
+      "refit": {
+        "auc": 0.8784053175356956,
+        "f1": 0.8209476309226933,
+        "accuracy": 0.7850299401197605,
+        "cut": 0.20682175862061913
+      }
+    },
+    "svm_mk_p2_c3": {
+      "fold_average": {
+        "auc": 0.8732618334106733,
+        "f1": 0.8235902741852044,
+        "accuracy": 0.795808383233533,
+        "cut": -0.13867614057733435
+      },
+      "refit": {
+        "auc": 0.8705542039092214,
+        "f1": 0.8244514106583072,
+        "accuracy": 0.7988023952095809,
+        "cut": -0.13867614057733435
+      }
+    },
+    "chemprop": {
+      "fold_average": {
+        "auc": 0.864194960888993,
+        "f1": 0.8146679881070367,
+        "accuracy": 0.7760479041916167,
+        "cut": 0.30815207958221436
+      },
+      "refit": {
+        "auc": 0.8554808174641381,
+        "f1": 0.8107569721115537,
+        "accuracy": 0.7724550898203593,
+        "cut": 0.30815207958221436
+      }
+    }
+  },
+  "fold_average": {
+    "auc": 0.8828418978560142,
+    "f1": 0.8211173757047668,
+    "accuracy": 0.7910179640718563,
+    "cut": 0.41139267293652826
+  },
+  "refit": {
+    "auc": 0.8809105614897891,
+    "f1": 0.8235294117647058,
+    "accuracy": 0.7934131736526946,
+    "cut": 0.41139267293652826
+  },
+  "half_refit_half_cv": {
+    "auc": 0.882328705932354,
+    "f1": 0.8227459016393442,
+    "accuracy": 0.792814371257485,
+    "cut": 0.41139267293652826
+  },
+  "paired_refit_f1_difference_interval_95": [
+    -0.002669667232530079,
+    0.00799325492729465
+  ]
+}

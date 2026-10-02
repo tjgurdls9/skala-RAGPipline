@@ -1,0 +1,145 @@
+{
+  "seed": 42,
+  "train_rows": 8349,
+  "prediction_rows": 927,
+  "development_rows": 6673,
+  "holdout_rows": 1676,
+  "scaffold_groups": 4160,
+  "group_overlap": 0,
+  "cv_folds": 4,
+  "selection": {
+    "models": [
+      "lightgbm_31"
+    ],
+    "threshold_toxic": 0.44999999999999996,
+    "primary_metric": "OOF ROC-AUC",
+    "threshold_metric": "OOF macro-F1",
+    "ensemble_minimum_auc_gain": 0.002,
+    "development_scores_at_threshold": {
+      "roc_auc": 0.8448240961281321,
+      "pr_auc_toxic": 0.8277704990255035,
+      "pr_auc_safe": 0.8620602299622507,
+      "accuracy": 0.763224936310505,
+      "precision_toxic": 0.7396003930560104,
+      "recall_toxic": 0.7420308905685179,
+      "f1_toxic": 0.7408136482939632,
+      "precision_safe": 0.7831491712707183,
+      "recall_safe": 0.78099173553719,
+      "f1_safe": 0.7820689655172414,
+      "macro_f1": 0.7614413069056023,
+      "specificity_toxic": 0.78099173553719,
+      "specificity_safe": 0.7420308905685179,
+      "brier": 0.16176929549785246,
+      "tn": 2835,
+      "fp": 795,
+      "fn": 785,
+      "tp": 2258
+    }
+  },
+  "holdout": {
+    "roc_auc": 0.8447546385597501,
+    "pr_auc_toxic": 0.8246171208844284,
+    "pr_auc_safe": 0.8579538709672262,
+    "accuracy": 0.7702863961813843,
+    "precision_toxic": 0.7642956764295676,
+    "recall_toxic": 0.7172774869109948,
+    "f1_toxic": 0.7400405131667792,
+    "precision_safe": 0.7747653806047967,
+    "recall_safe": 0.8146929824561403,
+    "f1_safe": 0.7942276857295564,
+    "macro_f1": 0.7671340994481678,
+    "specificity_toxic": 0.8146929824561403,
+    "specificity_safe": 0.7172774869109948,
+    "brier": 0.1611002924252671,
+    "tn": 743,
+    "fp": 169,
+    "fn": 216,
+    "tp": 548
+  },
+  "holdout_at_0_5": {
+    "roc_auc": 0.8447546385597501,
+    "pr_auc_toxic": 0.8246171208844284,
+    "pr_auc_safe": 0.8579538709672262,
+    "accuracy": 0.7673031026252983,
+    "precision_toxic": 0.78419452887538,
+    "recall_toxic": 0.675392670157068,
+    "f1_toxic": 0.7257383966244726,
+    "precision_safe": 0.756385068762279,
+    "recall_safe": 0.8442982456140351,
+    "f1_safe": 0.7979274611398963,
+    "macro_f1": 0.7618329288821845,
+    "specificity_toxic": 0.8442982456140351,
+    "specificity_safe": 0.675392670157068,
+    "brier": 0.1611002924252671,
+    "tn": 770,
+    "fp": 142,
+    "fn": 248,
+    "tp": 516
+  },
+  "holdout_confidence_interval": {
+    "roc_auc_95_percent": [
+      0.8153997187680873,
+      0.8701384043444165
+    ],
+    "macro_f1_95_percent": [
+      0.7359732518043736,
+      0.7958882834424468
+    ],
+    "group_bootstrap_repeats": 300
+  },
+  "holdout_dummy": {
+    "roc_auc": 0.5,
+    "pr_auc_toxic": 0.45584725536992843,
+    "pr_auc_safe": 0.5441527446300716,
+    "accuracy": 0.5441527446300716,
+    "precision_toxic": 0.0,
+    "recall_toxic": 0.0,
+    "f1_toxic": 0.0,
+    "precision_safe": 0.5441527446300716,
+    "recall_safe": 1.0,
+    "f1_safe": 0.7047913446676971,
+    "macro_f1": 0.35239567233384855,
+    "specificity_toxic": 1.0,
+    "specificity_safe": 0.0,
+    "brier": 0.2480505638816068,
+    "tn": 912,
+    "fp": 0,
+    "fn": 764,
+    "tp": 0
+  },
+  "prediction_output_counts_original_mapping": {
+    "1": 495,
+    "0": 432
+  },
+  "prediction_known_scaffolds": 627,
+  "prediction_known_connectivity": 81,
+  "prediction_known_isomeric": 1,
+  "median_nearest_tanimoto": 0.8032786846160889,
+  "versions": {
+    "python": "3.11.15",
+    "numpy": "2.4.6",
+    "pandas": "3.0.5",
+    "sklearn": "1.9.0",
+    "rdkit": "2025.09.6",
+    "lightgbm": "4.7.0",
+    "joblib": "1.5.3"
+  },
+  "protected_source_hashes": {
+    "02_데이터/train.csv": "1ee4605ab2c64e01e8d2ea0c0194736180bde8a2cffc6fd6cc3b072cfc3c1425",
+    "02_데이터/train_final_morgan_8vars.csv": "c7afd206aa46c1a830d8fb9bdede141269fccdcaac7e9d90011db54749b4ffe4",
+    "01_원본자료/predict_input.csv": "a514acd0f8729daa17bcdc43a70b96abca57f527113bce5dbb90baeadfc7251b",
+    "01_원본자료/predict_output_홍길동.csv": "63b94b4846b54f973c33c49ab2000db4eeeb32fbd4e9d69ea710e81f32e007ed",
+    "01_원본자료/train_original_labels.csv.bak": "cb7118a9533e36d81cdb4aa2e9318e9fa0b80faa70d132d7d3b2009e81fca5d8",
+    "04_노트북/원본부터_최종_Morgan8_EDA.ipynb": "7b9107622665316d808be16e6a3a01c83fe5b236c1261469125e517bcf70192f"
+  },
+  "source_files_unchanged": true,
+  "feature_recalculation_matches_all_training_rows": true,
+  "model_reload_probability_matches": true,
+  "submission_columns": [
+    "SMILES",
+    "output"
+  ],
+  "submission_sha256": "2c1fb7f9bf61fc070d70426c25d4d3f7ea4f40f47b38acaa3499fcb0ce0981b0",
+  "elapsed_seconds": 304.46795033302624,
+  "scope": "Internal scaffold holdout. Prior full-label EDA; no external validation. Conflict-selected local5 excluded from final selection."
+}

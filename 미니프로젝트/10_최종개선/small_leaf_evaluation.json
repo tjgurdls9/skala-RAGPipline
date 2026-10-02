@@ -1,0 +1,39 @@
+{
+  "baseline_refit_f1": 0.8337569903406202,
+  "small_leaf_added_f1": 0.8314262362076011,
+  "gain": -0.002330754133019086,
+  "folds": [
+    {
+      "fold": 0,
+      "baseline_refit_f1": 0.8442159383033419,
+      "small_leaf_added_f1": 0.8347737671581088
+    },
+    {
+      "fold": 1,
+      "baseline_refit_f1": 0.8235294117647058,
+      "small_leaf_added_f1": 0.8216658150229944
+    },
+    {
+      "fold": 2,
+      "baseline_refit_f1": 0.8197556008146639,
+      "small_leaf_added_f1": 0.8179937952430196
+    },
+    {
+      "fold": 3,
+      "baseline_refit_f1": 0.8391959798994975,
+      "small_leaf_added_f1": 0.8366412213740458
+    },
+    {
+      "fold": 4,
+      "baseline_refit_f1": 0.8419989904088844,
+      "small_leaf_added_f1": 0.8458015267175573
+    }
+  ],
+  "paired_gain_interval_95": [
+    -0.004753915473372297,
+    -0.00018103187485494514
+  ],
+  "band_auc_gain": -0.001650491846570179,
+  "scope": "4-model fixed-parameter nested fitting experiment; earlier global model tuning remains a caveat.",
+  "adopt_direction": false
+}

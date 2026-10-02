@@ -1,0 +1,74 @@
+{
+  "hold_rows": 1670,
+  "train_pool_rows": 6679,
+  "inner_training_rows": 5009.25,
+  "hyperparameter_selection_caveat": "Earlier global tuning saw this fold; no outer labels enter fitting here.",
+  "cutoff_selected_inside_outer_train": 0.39346474293320177,
+  "inference_rank_normalization": "Each prediction cohort separately, matching Claude/final submission path",
+  "models": {
+    "lgb_fp2": {
+      "fold_average": {
+        "auc": 0.8743308242857308,
+        "f1": 0.811841445057702,
+        "accuracy": 0.7754491017964071,
+        "cut": 0.2363465106669376
+      },
+      "refit": {
+        "auc": 0.8773572906910866,
+        "f1": 0.8177594217862674,
+        "accuracy": 0.7886227544910179,
+        "cut": 0.2363465106669376
+      }
+    },
+    "svm_mk_p2_c3": {
+      "fold_average": {
+        "auc": 0.8710528749985548,
+        "f1": 0.8122362869198312,
+        "accuracy": 0.7868263473053893,
+        "cut": -0.1429652586275164
+      },
+      "refit": {
+        "auc": 0.8712465457236348,
+        "f1": 0.8123338649654439,
+        "accuracy": 0.7886227544910179,
+        "cut": -0.1429652586275164
+      }
+    },
+    "chemprop": {
+      "fold_average": {
+        "auc": 0.861343323274018,
+        "f1": 0.8065314200890649,
+        "accuracy": 0.7658682634730539,
+        "cut": 0.2391616776585579
+      },
+      "refit": {
+        "auc": 0.8542461583821847,
+        "f1": 0.797735460627895,
+        "accuracy": 0.7646706586826347,
+        "cut": 0.2391616776585579
+      }
+    }
+  },
+  "fold_average": {
+    "auc": 0.8776174453964181,
+    "f1": 0.8163265306122449,
+    "accuracy": 0.7844311377245509,
+    "cut": 0.39346474293320177
+  },
+  "refit": {
+    "auc": 0.8794486454611675,
+    "f1": 0.8197556008146639,
+    "accuracy": 0.7880239520958083,
+    "cut": 0.39346474293320177
+  },
+  "half_refit_half_cv": {
+    "auc": 0.8793272399320128,
+    "f1": 0.8164300202839757,
+    "accuracy": 0.7832335329341318,
+    "cut": 0.39346474293320177
+  },
+  "paired_refit_f1_difference_interval_95": [
+    -0.0031731348498248682,
+    0.009988124883846336
+  ]
+}

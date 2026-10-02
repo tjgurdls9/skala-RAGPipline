@@ -1,0 +1,9 @@
+﻿feature,definition,environment_radius2,CIP_state,adoption_reason
+stereo_R_minus_S,분자 안의 R 중심 개수 − S 중심 개수,,,입체정보의 방향·미지정 상태를 설명하는 요약
+stereo_r_minus_s,분자 안의 r 중심 개수 − s 중심 개수. 대문자 R/S와 구분,,,입체정보의 방향·미지정 상태를 설명하는 요약
+stereo_unassigned_count,입체중심이 될 수 있지만 배치가 지정되지 않은 중심 개수. 라세미로 단정하지 않음,,,입체정보의 방향·미지정 상태를 설명하는 요약
+stereo_env_001,중심 배치 R / 반경2 환경 C(C(C)(C)O)(OC)C(c)O의 개수,C(C(C)(C)O)(OC)C(c)O,R,3개 전역 요약으로 남은 5그룹/8쌍에서 구분 정보를 제공하는 국소 환경 후보
+stereo_env_006,중심 배치 R / 반경2 환경 C(C(N)=O)(CN)C(c)C의 개수,C(C(N)=O)(CN)C(c)C,R,3개 전역 요약으로 남은 5그룹/8쌍에서 구분 정보를 제공하는 국소 환경 후보
+stereo_env_046,중심 배치 R / 반경2 환경 C(N)(CO)C(O)C의 개수,C(N)(CO)C(O)C,R,3개 전역 요약으로 남은 5그룹/8쌍에서 구분 정보를 제공하는 국소 환경 후보
+stereo_env_054,중심 배치 R / 반경2 환경 C(O)(C(c)O)C(C)O의 개수,C(O)(C(c)O)C(C)O,R,3개 전역 요약으로 남은 5그룹/8쌍에서 구분 정보를 제공하는 국소 환경 후보
+stereo_env_084,중심 배치 R / 반경2 환경 C1(CC1C)C(=O)N의 개수,C1(CC1C)C(=O)N,R,3개 전역 요약으로 남은 5그룹/8쌍에서 구분 정보를 제공하는 국소 환경 후보

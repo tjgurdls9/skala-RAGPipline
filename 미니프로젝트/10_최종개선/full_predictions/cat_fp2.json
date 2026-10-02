@@ -1,0 +1,17 @@
+{
+  "seconds": 223.97059297561646,
+  "train_rows": 8349,
+  "params": {
+    "iterations": 1500,
+    "learning_rate": 0.05,
+    "depth": 7,
+    "l2_leaf_reg": 5,
+    "rsm": 0.1,
+    "border_count": 64,
+    "thread_count": 4,
+    "random_seed": 0,
+    "verbose": false,
+    "allow_writing_files": false
+  },
+  "feature_count": 9305
+}

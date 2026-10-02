@@ -1,0 +1,52 @@
+{
+  "selected": {
+    "full_data_fraction": 1.0,
+    "D": 564,
+    "estimated_f1_not_measured": 0.84010812572476,
+    "changed_from_current": 7,
+    "file": "predict_output_fullmix_1.csv"
+  },
+  "choice_reason": "Frozen outer probe refit-minus-fold-average F1=0.009085; use full at >=.003, half in [-.002,.003), otherwise retain CV.",
+  "candidates": [
+    {
+      "full_data_fraction": 0.0,
+      "D": 567,
+      "estimated_f1_not_measured": 0.8392182763285562,
+      "changed_from_current": 0,
+      "file": "predict_output_fullmix_0.csv"
+    },
+    {
+      "full_data_fraction": 0.5,
+      "D": 565,
+      "estimated_f1_not_measured": 0.8392611149980547,
+      "changed_from_current": 2,
+      "file": "predict_output_fullmix_0.5.csv"
+    },
+    {
+      "full_data_fraction": 1.0,
+      "D": 564,
+      "estimated_f1_not_measured": 0.84010812572476,
+      "changed_from_current": 7,
+      "file": "predict_output_fullmix_1.csv"
+    }
+  ],
+  "models": [
+    "bag_cp",
+    "bag_gbdt_all",
+    "bag_lgb_fp2",
+    "cat_fp2",
+    "et",
+    "knn_tan",
+    "lgb_mord",
+    "lgb_mordonly",
+    "logit_bin",
+    "mlp",
+    "rf",
+    "svm_cb77",
+    "svm_mk_p2_c3",
+    "svm_molf",
+    "svm_tani10",
+    "xgb_fp2"
+  ],
+  "scope": "OOF belongs to 80%-trained fold models. Full refit changes test predictions; full-refit test F1 is unknown."
+}

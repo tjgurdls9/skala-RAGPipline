@@ -1,0 +1,21 @@
+{
+  "seconds": 2.271315097808838,
+  "train_rows": 8349,
+  "params": {
+    "C": 0.3,
+    "class_weight": null,
+    "dual": false,
+    "fit_intercept": true,
+    "intercept_scaling": 1,
+    "l1_ratio": 0.0,
+    "max_iter": 3000,
+    "n_jobs": null,
+    "penalty": "deprecated",
+    "random_state": null,
+    "solver": "lbfgs",
+    "tol": 0.0001,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "feature_count": 4201
+}

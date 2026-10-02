@@ -1,0 +1,14 @@
+{
+  "notebook_executed_code_cells": 9,
+  "notebook_error_outputs": 0,
+  "protected_sources_unchanged": true,
+  "submission_rows": 927,
+  "submission_columns": [
+    "SMILES",
+    "output"
+  ],
+  "submission_matches_reloaded_model": "notebook cell17 executed and asserted",
+  "main_script_sha256": "979f7dea27357d44a4579c6bcb8fa5cdd8ae6920728ce7659883385a18f3071a",
+  "notebook_sha256": "4a1086e9734703e87b77cb8ee6ba8c0237af89bd4f2b4421aa84ba9537f62db9",
+  "submission_sha256": "2c1fb7f9bf61fc070d70426c25d4d3f7ea4f40f47b38acaa3499fcb0ce0981b0"
+}

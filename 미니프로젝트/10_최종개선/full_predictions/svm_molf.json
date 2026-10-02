@@ -1,0 +1,7 @@
+{
+  "seconds": 31.1234290599823,
+  "train_rows": 8349,
+  "C": 3,
+  "gamma": "scale",
+  "embedding": "molf"
+}

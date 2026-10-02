@@ -1,0 +1,35 @@
+{
+  "baseline": {
+    "auc": 0.8913048016834271,
+    "f1_crossfit_cut": 0.8328670604082479,
+    "band_auc": 0.5064689517327067,
+    "cut": 0.29671489267003215
+  },
+  "settings": {
+    "num_leaves": 63,
+    "learning_rate": 0.03,
+    "colsample_bytree": 0.25,
+    "subsample": 0.8,
+    "subsample_freq": 1,
+    "min_child_samples": 20,
+    "reg_lambda": 1.0,
+    "n_jobs": 2,
+    "verbosity": -1,
+    "seed": 3
+  },
+  "method": "GCE exact gradients; positive Fisher-like approximate Hessian; q=.2,.5 fixed before results; 1100 trees, no early stopping or validation labels",
+  "gce_q0.2": {
+    "auc": 0.8908875420917481,
+    "f1_crossfit_cut": 0.8284938374764989,
+    "band_auc": 0.4990321331784746,
+    "cut": 0.3516767271018554,
+    "seconds": 184.7637529373169
+  },
+  "gce_q0.5": {
+    "auc": 0.8905342449544553,
+    "f1_crossfit_cut": 0.829353284821154,
+    "band_auc": 0.4995363242668972,
+    "cut": 0.2481494040928705,
+    "seconds": 185.3816261291504
+  }
+}

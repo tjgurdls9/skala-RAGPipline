@@ -1,0 +1,33 @@
+{
+  "verified_best_submitted_score": 0.8393,
+  "best_file_verified_by_backup": true,
+  "model": "logistic_C0.1",
+  "cut": 0.4020884682990541,
+  "candidates": [
+    {
+      "full_data_fraction": 0.0,
+      "safe_count": 565,
+      "changed_vs_current": 18,
+      "changed_vs_best_submitted": 0,
+      "old_oof_f1_not_refit_validation": 0.8349393845197389,
+      "old_oof_auc_not_refit_validation": 0.8954820530953145
+    },
+    {
+      "full_data_fraction": 0.5,
+      "safe_count": 563,
+      "changed_vs_current": 18,
+      "changed_vs_best_submitted": 4,
+      "old_oof_f1_not_refit_validation": 0.8349393845197389,
+      "old_oof_auc_not_refit_validation": 0.8954820530953145
+    },
+    {
+      "full_data_fraction": 1.0,
+      "safe_count": 562,
+      "changed_vs_current": 21,
+      "changed_vs_best_submitted": 7,
+      "old_oof_f1_not_refit_validation": 0.8349393845197389,
+      "old_oof_auc_not_refit_validation": 0.8954820530953145
+    }
+  ],
+  "scope": "Frozen model/threshold selected earlier. Base models refit on all 8349 rows; new test F1 unknown."
+}

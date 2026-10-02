@@ -1,0 +1,138 @@
+{
+  "rows": 8349,
+  "columns": 3037,
+  "removed_columns": [
+    "ptfp_9",
+    "ptfp_37",
+    "ptfp_68",
+    "ptfp_100",
+    "ptfp_131",
+    "ptfp_141",
+    "ptfp_158",
+    "ptfp_161",
+    "ptfp_165",
+    "ptfp_173",
+    "ptfp_212",
+    "ptfp_217",
+    "ptfp_271",
+    "ptfp_296",
+    "ptfp_340",
+    "ptfp_343",
+    "ptfp_389",
+    "ptfp_390",
+    "ptfp_392",
+    "ptfp_393",
+    "ptfp_394",
+    "ptfp_429",
+    "ptfp_436",
+    "ptfp_465",
+    "ptfp_469",
+    "ptfp_474",
+    "ptfp_490",
+    "ptfp_512",
+    "ptfp_523",
+    "ptfp_527",
+    "ptfp_549",
+    "ptfp_617",
+    "ptfp_622",
+    "ptfp_673",
+    "ptfp_689",
+    "ptfp_702",
+    "ptfp_730",
+    "ptfp_740",
+    "ptfp_865",
+    "ptfp_898",
+    "ptfp_923",
+    "ptfp_937",
+    "ptfp_963",
+    "ptfp_967",
+    "ptfp_972",
+    "ptfp_993",
+    "ptfp_995",
+    "ptfp_1003",
+    "ptfp_1022"
+  ],
+  "features": [
+    "stereo_R_minus_S",
+    "stereo_r_minus_s",
+    "stereo_unassigned_count",
+    "stereo_env_001",
+    "stereo_env_006",
+    "stereo_env_046",
+    "stereo_env_054",
+    "stereo_env_084"
+  ],
+  "selected_local_coverage": [
+    {
+      "변수": "stereo_env_001",
+      "반경2 연결 환경": "C(C(C)(C)O)(OC)C(c)O",
+      "세는 방향": "R",
+      "남은 충돌 그룹": "C25"
+    },
+    {
+      "변수": "stereo_env_006",
+      "반경2 연결 환경": "C(C(N)=O)(CN)C(c)C",
+      "세는 방향": "R",
+      "남은 충돌 그룹": "C19"
+    },
+    {
+      "변수": "stereo_env_046",
+      "반경2 연결 환경": "C(N)(CO)C(O)C",
+      "세는 방향": "R",
+      "남은 충돌 그룹": "C27"
+    },
+    {
+      "변수": "stereo_env_054",
+      "반경2 연결 환경": "C(O)(C(c)O)C(C)O",
+      "세는 방향": "R",
+      "남은 충돌 그룹": "C21"
+    },
+    {
+      "변수": "stereo_env_084",
+      "반경2 연결 환경": "C1(CC1C)C(=O)N",
+      "세는 방향": "R",
+      "남은 충돌 그룹": "C03"
+    }
+  ],
+  "morgan": {
+    "radius": 2,
+    "bits": 1024,
+    "includeChirality": true
+  },
+  "stages": [
+    {
+      "단계": "기존 전체",
+      "충돌 그룹": 33,
+      "충돌 행": 73,
+      "최소 불가피 오류": 34
+    },
+    {
+      "단계": "전역 3개 추가",
+      "충돌 그룹": 5,
+      "충돌 행": 12,
+      "최소 불가피 오류": 6
+    },
+    {
+      "단계": "기존 + 8개",
+      "충돌 그룹": 0,
+      "충돌 행": 0,
+      "최소 불가피 오류": 0
+    },
+    {
+      "단계": "Morgan만 재생성",
+      "충돌 그룹": 6,
+      "충돌 행": 12,
+      "최소 불가피 오류": 6
+    },
+    {
+      "단계": "Morgan + 8개 최종",
+      "충돌 그룹": 0,
+      "충돌 행": 0,
+      "최소 불가피 오류": 0
+    }
+  ],
+  "source_sha256": "1ee4605ab2c64e01e8d2ea0c0194736180bde8a2cffc6fd6cc3b072cfc3c1425",
+  "output_sha256": "c7afd206aa46c1a830d8fb9bdede141269fccdcaac7e9d90011db54749b4ffe4",
+  "rdkit": "2025.09.6",
+  "scope": "현재 데이터의 동일 숫자 입력-label 충돌 없음. 인과 설명/독립 예측 성능 증명 아님."
+}

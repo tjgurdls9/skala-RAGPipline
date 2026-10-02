@@ -1,0 +1,20 @@
+{
+  "name": "xgb_depth5_reg",
+  "config": {
+    "max_depth": 5,
+    "min_child_weight": 3,
+    "reg_lambda": 3,
+    "colsample_bytree": 0.4
+  },
+  "seconds": 157.60653483401984,
+  "screening": false,
+  "auc": 0.8895580657059806,
+  "f1_safe": 0.832175194777848,
+  "accuracy": 0.8090789316085759,
+  "precision_safe": 0.7974172719935432,
+  "recall_safe": 0.8701012769704976,
+  "recall_toxic": 0.7362752823745732,
+  "threshold": 0.42699040472507477,
+  "positive_rate": 0.593604024434064,
+  "log_loss": 0.4195903674269922
+}

@@ -1,0 +1,30 @@
+{
+  "pool": [
+    "bag_cp",
+    "bag_gbdt_all",
+    "bag_lgb_fp2",
+    "cat_fp2",
+    "et",
+    "knn_tan",
+    "lgb_mord",
+    "lgb_mordonly",
+    "logit_bin",
+    "mlp",
+    "rf",
+    "svm_cb77",
+    "svm_mk_p2_c3",
+    "svm_molf",
+    "svm_tani10",
+    "xgb_fp2"
+  ],
+  "oof_reproduction_max_abs_difference": 0.0,
+  "test_reproduction_max_abs_difference": 0.0,
+  "D": 567,
+  "estimated_f1_not_measured": 0.8392182763285563,
+  "current_output_reproduced": true,
+  "isotonic_boundary_ties": 6,
+  "tie_break_changes": 0,
+  "fully_nested": false,
+  "nested_issue": "Other meta-training rows base models were trained using outer-validation labels.",
+  "self_stack_input_issue": "final_report.load includes its own prior final_stack_lr on rerun; remove derived stacks."
+}

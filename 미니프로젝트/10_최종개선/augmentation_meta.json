@@ -1,0 +1,24 @@
+{
+  "base_bert_auc": 0.8452712950731445,
+  "stack_auc": 0.8946818284286392,
+  "seed_f1": [
+    0.833072345756342,
+    0.8360980699008868,
+    0.8344978621336948
+  ],
+  "baseline_seed_f1": [
+    0.8341898269533299,
+    0.835103060587133,
+    0.8341560760424325
+  ],
+  "repeated_cross_threshold_f1": 0.8345560925969746,
+  "gain": 7.310473600952161e-05,
+  "band_auc_gain": -0.001293371471210003,
+  "paired_f1_gain_interval_95": [
+    -0.0013724090175433329,
+    0.0014972969940644702
+  ],
+  "adopt": false,
+  "predeclared_gate": "mean F1 gain>=.001, nonnegative in every seed, band AUC gain>=.002",
+  "scope": "Meta CV reuses base OOF; indirect leakage and prior global parameter selection remain."
+}

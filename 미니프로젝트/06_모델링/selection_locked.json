@@ -1,0 +1,29 @@
+{
+  "models": [
+    "lightgbm_31"
+  ],
+  "threshold_toxic": 0.44999999999999996,
+  "primary_metric": "OOF ROC-AUC",
+  "threshold_metric": "OOF macro-F1",
+  "ensemble_minimum_auc_gain": 0.002,
+  "development_scores_at_threshold": {
+    "roc_auc": 0.8448240961281321,
+    "pr_auc_toxic": 0.8277704990255035,
+    "pr_auc_safe": 0.8620602299622507,
+    "accuracy": 0.763224936310505,
+    "precision_toxic": 0.7396003930560104,
+    "recall_toxic": 0.7420308905685179,
+    "f1_toxic": 0.7408136482939632,
+    "precision_safe": 0.7831491712707183,
+    "recall_safe": 0.78099173553719,
+    "f1_safe": 0.7820689655172414,
+    "macro_f1": 0.7614413069056023,
+    "specificity_toxic": 0.78099173553719,
+    "specificity_safe": 0.7420308905685179,
+    "brier": 0.16176929549785246,
+    "tn": 2835,
+    "fp": 795,
+    "fn": 785,
+    "tp": 2258
+  }
+}

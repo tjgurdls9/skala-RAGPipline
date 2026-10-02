@@ -1,0 +1,127 @@
+﻿feature,kind,environment_radius2,CIP_state,meaning
+stereo_env_001,local_stereo_count,C(C(C)(C)O)(OC)C(c)O,R,중심 배치 R / 반경2 환경 C(C(C)(C)O)(OC)C(c)O의 개수
+stereo_env_002,local_stereo_count,C(C(C)(C)O)(OC)C(c)O,S,중심 배치 S / 반경2 환경 C(C(C)(C)O)(OC)C(c)O의 개수
+stereo_env_003,local_stereo_count,C(C(C)O)(CC)(CC)OC,?,중심 배치 ? / 반경2 환경 C(C(C)O)(CC)(CC)OC의 개수
+stereo_env_004,local_stereo_count,C(C(C)O)(CC)OC,R,중심 배치 R / 반경2 환경 C(C(C)O)(CC)OC의 개수
+stereo_env_005,local_stereo_count,C(C(C)O)(CC)OC,S,중심 배치 S / 반경2 환경 C(C(C)O)(CC)OC의 개수
+stereo_env_006,local_stereo_count,C(C(N)=O)(CN)C(c)C,R,중심 배치 R / 반경2 환경 C(C(N)=O)(CN)C(c)C의 개수
+stereo_env_007,local_stereo_count,C(C(N)=O)(CN)C(c)C,S,중심 배치 S / 반경2 환경 C(C(N)=O)(CN)C(c)C의 개수
+stereo_env_008,local_stereo_count,C(C(c)O)(CC)NC,R,중심 배치 R / 반경2 환경 C(C(c)O)(CC)NC의 개수
+stereo_env_009,local_stereo_count,C(C)(C(c)=O)(CC)CC,r,중심 배치 r / 반경2 환경 C(C)(C(c)=O)(CC)CC의 개수
+stereo_env_010,local_stereo_count,C(C)(C(c)=O)(CC)CC,s,중심 배치 s / 반경2 환경 C(C)(C(c)=O)(CC)CC의 개수
+stereo_env_011,local_stereo_count,C(C)(CC)N(C)C,R,중심 배치 R / 반경2 환경 C(C)(CC)N(C)C의 개수
+stereo_env_012,local_stereo_count,C(C)(CC)N(C)C,S,중심 배치 S / 반경2 환경 C(C)(CC)N(C)C의 개수
+stereo_env_013,local_stereo_count,C(C)(N)C(N)=O,R,중심 배치 R / 반경2 환경 C(C)(N)C(N)=O의 개수
+stereo_env_014,local_stereo_count,C(C)(N)C(N)=O,S,중심 배치 S / 반경2 환경 C(C)(N)C(N)=O의 개수
+stereo_env_015,local_stereo_count,C(C)(NC)C(N)C,R,중심 배치 R / 반경2 환경 C(C)(NC)C(N)C의 개수
+stereo_env_016,local_stereo_count,C(C)(NC)C(N)C,S,중심 배치 S / 반경2 환경 C(C)(NC)C(N)C의 개수
+stereo_env_017,local_stereo_count,C(C)(O)(CC)CC,r,중심 배치 r / 반경2 환경 C(C)(O)(CC)CC의 개수
+stereo_env_018,local_stereo_count,C(C)(O)(CC)CC,s,중심 배치 s / 반경2 환경 C(C)(O)(CC)CC의 개수
+stereo_env_019,local_stereo_count,C(C)(O)C(N)=O,R,중심 배치 R / 반경2 환경 C(C)(O)C(N)=O의 개수
+stereo_env_020,local_stereo_count,C(C)(O)C(N)=O,S,중심 배치 S / 반경2 환경 C(C)(O)C(N)=O의 개수
+stereo_env_021,local_stereo_count,C(C)(O)Cn,R,중심 배치 R / 반경2 환경 C(C)(O)Cn의 개수
+stereo_env_022,local_stereo_count,C(C)(O)Cn,S,중심 배치 S / 반경2 환경 C(C)(O)Cn의 개수
+stereo_env_023,local_stereo_count,C(C)(Oc)C(N)=O,R,중심 배치 R / 반경2 환경 C(C)(Oc)C(N)=O의 개수
+stereo_env_024,local_stereo_count,C(C)(Oc)C(N)=O,S,중심 배치 S / 반경2 환경 C(C)(Oc)C(N)=O의 개수
+stereo_env_025,local_stereo_count,C(C)(c(c)c)n(c)c,?,중심 배치 ? / 반경2 환경 C(C)(c(c)c)n(c)c의 개수
+stereo_env_026,local_stereo_count,C(C)(c(c)c)n(c)c,R,중심 배치 R / 반경2 환경 C(C)(c(c)c)n(c)c의 개수
+stereo_env_027,local_stereo_count,C(C)(c(c)c)n(c)c,S,중심 배치 S / 반경2 환경 C(C)(c(c)c)n(c)c의 개수
+stereo_env_028,local_stereo_count,C(CC)(CC)(CC)OC,?,중심 배치 ? / 반경2 환경 C(CC)(CC)(CC)OC의 개수
+stereo_env_029,local_stereo_count,C(CC)(CC)CO,?,중심 배치 ? / 반경2 환경 C(CC)(CC)CO의 개수
+stereo_env_030,local_stereo_count,C(CC)(CC)CO,S,중심 배치 S / 반경2 환경 C(CC)(CC)CO의 개수
+stereo_env_031,local_stereo_count,C(CC)(NC)C(=O)N,R,중심 배치 R / 반경2 환경 C(CC)(NC)C(=O)N의 개수
+stereo_env_032,local_stereo_count,C(CC)(NC)C(=O)N,S,중심 배치 S / 반경2 환경 C(CC)(NC)C(=O)N의 개수
+stereo_env_033,local_stereo_count,C(CC)(c(c)c)N(C)C,R,중심 배치 R / 반경2 환경 C(CC)(c(c)c)N(C)C의 개수
+stereo_env_034,local_stereo_count,C(CN)(CC)CC,r,중심 배치 r / 반경2 환경 C(CN)(CC)CC의 개수
+stereo_env_035,local_stereo_count,C(CN)(CC)CC,s,중심 배치 s / 반경2 환경 C(CN)(CC)CC의 개수
+stereo_env_036,local_stereo_count,C(CN)(CN)OC,?,중심 배치 ? / 반경2 환경 C(CN)(CN)OC의 개수
+stereo_env_037,local_stereo_count,C(CN)(CN)OC,R,중심 배치 R / 반경2 환경 C(CN)(CN)OC의 개수
+stereo_env_038,local_stereo_count,C(CN)(CN)OC,S,중심 배치 S / 반경2 환경 C(CN)(CN)OC의 개수
+stereo_env_039,local_stereo_count,C(CN)(CO)N(C)C,S,중심 배치 S / 반경2 환경 C(CN)(CO)N(C)C의 개수
+stereo_env_040,local_stereo_count,C(Cc)(C(=O)O)N(C)C,R,중심 배치 R / 반경2 환경 C(Cc)(C(=O)O)N(C)C의 개수
+stereo_env_041,local_stereo_count,C(Cc)(C(=O)O)N(C)C,S,중심 배치 S / 반경2 환경 C(Cc)(C(=O)O)N(C)C의 개수
+stereo_env_042,local_stereo_count,C(Cc)(CC)NC,S,중심 배치 S / 반경2 환경 C(Cc)(CC)NC의 개수
+stereo_env_043,local_stereo_count,C(N(C)C)(CC)CC,r,중심 배치 r / 반경2 환경 C(N(C)C)(CC)CC의 개수
+stereo_env_044,local_stereo_count,C(N(C)C)(CC)CC,s,중심 배치 s / 반경2 환경 C(N(C)C)(CC)CC의 개수
+stereo_env_045,local_stereo_count,C(N)(CO)C(O)C,?,중심 배치 ? / 반경2 환경 C(N)(CO)C(O)C의 개수
+stereo_env_046,local_stereo_count,C(N)(CO)C(O)C,R,중심 배치 R / 반경2 환경 C(N)(CO)C(O)C의 개수
+stereo_env_047,local_stereo_count,C(N)(CO)C(O)C,S,중심 배치 S / 반경2 환경 C(N)(CO)C(O)C의 개수
+stereo_env_048,local_stereo_count,C(NC)(CC)(CC)CO,?,중심 배치 ? / 반경2 환경 C(NC)(CC)(CC)CO의 개수
+stereo_env_049,local_stereo_count,C(NC)(CC)CO,R,중심 배치 R / 반경2 환경 C(NC)(CC)CO의 개수
+stereo_env_050,local_stereo_count,C(NC)(CC)CO,S,중심 배치 S / 반경2 환경 C(NC)(CC)CO의 개수
+stereo_env_051,local_stereo_count,C(NC)(N=C)C(=O)N,R,중심 배치 R / 반경2 환경 C(NC)(N=C)C(=O)N의 개수
+stereo_env_052,local_stereo_count,C(NC)(N=C)C(=O)N,S,중심 배치 S / 반경2 환경 C(NC)(N=C)C(=O)N의 개수
+stereo_env_053,local_stereo_count,C(Nc)(CC)C(C)N,S,중심 배치 S / 반경2 환경 C(Nc)(CC)C(C)N의 개수
+stereo_env_054,local_stereo_count,C(O)(C(c)O)C(C)O,R,중심 배치 R / 반경2 환경 C(O)(C(c)O)C(C)O의 개수
+stereo_env_055,local_stereo_count,C(O)(C(c)O)C(C)O,S,중심 배치 S / 반경2 환경 C(O)(C(c)O)C(C)O의 개수
+stereo_env_056,local_stereo_count,C(O)(CN)c(c)c,?,중심 배치 ? / 반경2 환경 C(O)(CN)c(c)c의 개수
+stereo_env_057,local_stereo_count,C(O)(CN)c(c)c,R,중심 배치 R / 반경2 환경 C(O)(CN)c(c)c의 개수
+stereo_env_058,local_stereo_count,C(O)(c(c)c)C(C)N,R,중심 배치 R / 반경2 환경 C(O)(c(c)c)C(C)N의 개수
+stereo_env_059,local_stereo_count,C(O)(c(c)c)C(C)O,R,중심 배치 R / 반경2 환경 C(O)(c(c)c)C(C)O의 개수
+stereo_env_060,local_stereo_count,C(O)(c(c)c)C(C)O,S,중심 배치 S / 반경2 환경 C(O)(c(c)c)C(C)O의 개수
+stereo_env_061,local_stereo_count,C(Oc)(CO)C(N)C,?,중심 배치 ? / 반경2 환경 C(Oc)(CO)C(N)C의 개수
+stereo_env_062,local_stereo_count,C(Oc)(CO)C(N)C,R,중심 배치 R / 반경2 환경 C(Oc)(CO)C(N)C의 개수
+stereo_env_063,local_stereo_count,C(Oc)(CO)C(N)C,S,중심 배치 S / 반경2 환경 C(Oc)(CO)C(N)C의 개수
+stereo_env_064,local_stereo_count,C(c(c)c)(CC)CC,r,중심 배치 r / 반경2 환경 C(c(c)c)(CC)CC의 개수
+stereo_env_065,local_stereo_count,C(c(c)c)(CC)CC,s,중심 배치 s / 반경2 환경 C(c(c)c)(CC)CC의 개수
+stereo_env_066,local_stereo_count,C(c(c)c)(CC)CN,?,중심 배치 ? / 반경2 환경 C(c(c)c)(CC)CN의 개수
+stereo_env_067,local_stereo_count,C(c(c)c)(CC)CN,R,중심 배치 R / 반경2 환경 C(c(c)c)(CC)CN의 개수
+stereo_env_068,local_stereo_count,C(c(c)c)(CC)c(c)c,?,중심 배치 ? / 반경2 환경 C(c(c)c)(CC)c(c)c의 개수
+stereo_env_069,local_stereo_count,C(c(c)c)(CC)c(c)c,R,중심 배치 R / 반경2 환경 C(c(c)c)(CC)c(c)c의 개수
+stereo_env_070,local_stereo_count,C(c(c)c)(CC)c(c)c,S,중심 배치 S / 반경2 환경 C(c(c)c)(CC)c(c)c의 개수
+stereo_env_071,local_stereo_count,C(c(c)c)(CN)C(C)C,R,중심 배치 R / 반경2 환경 C(c(c)c)(CN)C(C)C의 개수
+stereo_env_072,local_stereo_count,C(c(c)c)(CN)C(C)C,S,중심 배치 S / 반경2 환경 C(c(c)c)(CN)C(C)C의 개수
+stereo_env_073,local_stereo_count,C(c(c)c)(CN)OC,R,중심 배치 R / 반경2 환경 C(c(c)c)(CN)OC의 개수
+stereo_env_074,local_stereo_count,C(c(c)c)(CN)OC,S,중심 배치 S / 반경2 환경 C(c(c)c)(CN)OC의 개수
+stereo_env_075,local_stereo_count,C(c(c)c)(OC)C(C)O,R,중심 배치 R / 반경2 환경 C(c(c)c)(OC)C(C)O의 개수
+stereo_env_076,local_stereo_count,C(c(c)c)(OC)C(C)O,S,중심 배치 S / 반경2 환경 C(c(c)c)(OC)C(C)O의 개수
+stereo_env_077,local_stereo_count,C(c(c)c)(c(c)c)(N=C)c(c)c,?,중심 배치 ? / 반경2 환경 C(c(c)c)(c(c)c)(N=C)c(c)c의 개수
+stereo_env_078,local_stereo_count,C(c(c)c)(c(c)c)(N=C)c(c)c,S,중심 배치 S / 반경2 환경 C(c(c)c)(c(c)c)(N=C)c(c)c의 개수
+stereo_env_079,local_stereo_count,C1(C(=O)O)C(C)C1C,R,중심 배치 R / 반경2 환경 C1(C(=O)O)C(C)C1C의 개수
+stereo_env_080,local_stereo_count,C1(C(=O)O)C(C)C1C,S,중심 배치 S / 반경2 환경 C1(C(=O)O)C(C)C1C의 개수
+stereo_env_081,local_stereo_count,C1(C)(NC)CCC1,r,중심 배치 r / 반경2 환경 C1(C)(NC)CCC1의 개수
+stereo_env_082,local_stereo_count,C1(C)(NC)CCC1,s,중심 배치 s / 반경2 환경 C1(C)(NC)CCC1의 개수
+stereo_env_083,local_stereo_count,C1(CC)(CN)CC1c,S,중심 배치 S / 반경2 환경 C1(CC)(CN)CC1c의 개수
+stereo_env_084,local_stereo_count,C1(CC1C)C(=O)N,R,중심 배치 R / 반경2 환경 C1(CC1C)C(=O)N의 개수
+stereo_env_085,local_stereo_count,C1(CC1C)C(=O)N,S,중심 배치 S / 반경2 환경 C1(CC1C)C(=O)N의 개수
+stereo_env_086,local_stereo_count,C1(CC1C)C(c)=N,R,중심 배치 R / 반경2 환경 C1(CC1C)C(c)=N의 개수
+stereo_env_087,local_stereo_count,C1(CC1C)C(c)=N,S,중심 배치 S / 반경2 환경 C1(CC1C)C(c)=N의 개수
+stereo_env_088,local_stereo_count,C1(CN)C(C)C1C,R,중심 배치 R / 반경2 환경 C1(CN)C(C)C1C의 개수
+stereo_env_089,local_stereo_count,C1(CN)C(C)C1C,S,중심 배치 S / 반경2 환경 C1(CN)C(C)C1C의 개수
+stereo_env_090,local_stereo_count,C1(CO)OCC1N,R,중심 배치 R / 반경2 환경 C1(CO)OCC1N의 개수
+stereo_env_091,local_stereo_count,C1(CO)OCC1N,S,중심 배치 S / 반경2 환경 C1(CO)OCC1N의 개수
+stereo_env_092,local_stereo_count,C1(N)CCC1,r,중심 배치 r / 반경2 환경 C1(N)CCC1의 개수
+stereo_env_093,local_stereo_count,C1(N)CCC1,s,중심 배치 s / 반경2 환경 C1(N)CCC1의 개수
+stereo_env_094,local_stereo_count,C1(N)COC1C,R,중심 배치 R / 반경2 환경 C1(N)COC1C의 개수
+stereo_env_095,local_stereo_count,C1(N)COC1C,S,중심 배치 S / 반경2 환경 C1(N)COC1C의 개수
+stereo_env_096,local_stereo_count,C1(c(c)c)CC1(C)C,R,중심 배치 R / 반경2 환경 C1(c(c)c)CC1(C)C의 개수
+stereo_env_097,local_stereo_count,C1(c(c)c)CC1(C)C,S,중심 배치 S / 반경2 환경 C1(c(c)c)CC1(C)C의 개수
+stereo_R_count,global_count_or_summary,,,stereo_R_count
+stereo_S_count,global_count_or_summary,,,stereo_S_count
+stereo_r_count,global_count_or_summary,,,stereo_r_count
+stereo_s_count,global_count_or_summary,,,stereo_s_count
+stereo_unassigned_count,global_count_or_summary,,,stereo_unassigned_count
+stereo_potential_count,global_count_or_summary,,,stereo_potential_count
+stereo_specified_count,global_count_or_summary,,,stereo_specified_count
+stereo_R_minus_S,global_count_or_summary,,,stereo_R_minus_S
+stereo_r_minus_s,global_count_or_summary,,,stereo_r_minus_s
+stereo_defined_fraction,global_count_or_summary,,,stereo_defined_fraction
+stereo_E_count,global_count_or_summary,,,stereo_E_count
+stereo_Z_count,global_count_or_summary,,,stereo_Z_count
+stereo_double_unassigned_count,global_count_or_summary,,,stereo_double_unassigned_count
+ecfp_onbits,global_count_or_summary,,,ecfp_onbits
+fcfp_onbits,global_count_or_summary,,,fcfp_onbits
+ptfp_onbits,global_count_or_summary,,,ptfp_onbits
+stereo_uncovered_environment_count,global_count_or_summary,,,stereo_uncovered_environment_count
+stereo_R_minus_S_x_MolWt,interaction,,,stereo_R_minus_S_x_MolWt
+stereo_R_minus_S_x_clogp,interaction,,,stereo_R_minus_S_x_clogp
+stereo_R_minus_S_x_sa_score,interaction,,,stereo_R_minus_S_x_sa_score
+stereo_R_minus_S_x_qed,interaction,,,stereo_R_minus_S_x_qed
+stereo_r_minus_s_x_MolWt,interaction,,,stereo_r_minus_s_x_MolWt
+stereo_r_minus_s_x_clogp,interaction,,,stereo_r_minus_s_x_clogp
+stereo_r_minus_s_x_sa_score,interaction,,,stereo_r_minus_s_x_sa_score
+stereo_r_minus_s_x_qed,interaction,,,stereo_r_minus_s_x_qed
+stereo_defined_fraction_x_MolWt,interaction,,,stereo_defined_fraction_x_MolWt
+stereo_defined_fraction_x_clogp,interaction,,,stereo_defined_fraction_x_clogp
+stereo_defined_fraction_x_sa_score,interaction,,,stereo_defined_fraction_x_sa_score
+stereo_defined_fraction_x_qed,interaction,,,stereo_defined_fraction_x_qed

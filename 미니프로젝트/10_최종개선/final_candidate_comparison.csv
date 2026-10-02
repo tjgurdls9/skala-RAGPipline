@@ -1,0 +1,4 @@
+full_data_fraction,D,threshold,estimated_f1_not_measured,changed_from_current,changed_from_best_actual_submission,file
+0.0,556,0.4218680916925355,0.8345168751329851,11,15,predict_output_finalmix_0.csv
+0.5,557,0.4218680916925355,0.8385056522098937,10,14,predict_output_finalmix_0.5.csv
+1.0,551,0.4218680916925355,0.8429921650808924,18,22,predict_output_finalmix_1.csv

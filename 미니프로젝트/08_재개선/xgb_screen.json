@@ -1,0 +1,42 @@
+[
+  {
+    "name": "xgb_depth5_reg",
+    "config": {
+      "max_depth": 5,
+      "min_child_weight": 3,
+      "reg_lambda": 3,
+      "colsample_bytree": 0.4
+    },
+    "seconds": 69.47706666600425,
+    "screening": true,
+    "auc": 0.8895321858072799,
+    "f1_safe": 0.832579185520362,
+    "accuracy": 0.8116766467065868,
+    "precision_safe": 0.8066013408973698,
+    "recall_safe": 0.8602860286028603,
+    "recall_toxic": 0.7536136662286466,
+    "threshold": 0.45456722378730774,
+    "positive_rate": 0.5805389221556886,
+    "log_loss": 0.4201550924673027
+  },
+  {
+    "name": "xgb_depth7_reg",
+    "config": {
+      "max_depth": 7,
+      "min_child_weight": 8,
+      "reg_lambda": 8,
+      "colsample_bytree": 0.25
+    },
+    "seconds": 95.9288842920214,
+    "screening": true,
+    "auc": 0.890873712864059,
+    "f1_safe": 0.8300619834710744,
+    "accuracy": 0.8029940119760479,
+    "precision_safe": 0.7823758519961052,
+    "recall_safe": 0.8839383938393839,
+    "recall_toxic": 0.7063074901445466,
+    "threshold": 0.36994168162345886,
+    "positive_rate": 0.6149700598802396,
+    "log_loss": 0.42240317721858667
+  }
+]

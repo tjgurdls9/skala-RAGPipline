@@ -1,0 +1,31 @@
+{
+  "random_cv": [
+    {
+      "fold": 0,
+      "known_scaffold_rate": 0.6233532934131737,
+      "n": 1670
+    },
+    {
+      "fold": 1,
+      "known_scaffold_rate": 0.611377245508982,
+      "n": 1670
+    },
+    {
+      "fold": 2,
+      "known_scaffold_rate": 0.6293413173652694,
+      "n": 1670
+    },
+    {
+      "fold": 3,
+      "known_scaffold_rate": 0.6065868263473054,
+      "n": 1670
+    },
+    {
+      "fold": 4,
+      "known_scaffold_rate": 0.6183343319352906,
+      "n": 1669
+    }
+  ],
+  "predict_known_scaffold_rate": 0.6763754045307443,
+  "inference": "Scaffold overlap is similar; not proof that leaderboard generation is identical to random CV."
+}

@@ -1,0 +1,4 @@
+full_data_fraction,D,estimated_f1_not_measured,changed_from_current,file
+0.0,567,0.8392182763285562,0,predict_output_fullmix_0.csv
+0.5,565,0.8392611149980547,2,predict_output_fullmix_0.5.csv
+1.0,564,0.84010812572476,7,predict_output_fullmix_1.csv

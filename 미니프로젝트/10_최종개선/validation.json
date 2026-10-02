@@ -1,0 +1,17 @@
+{
+  "rows": 927,
+  "columns": [
+    "SMILES",
+    "output"
+  ],
+  "SMILES_order_exact": true,
+  "binary_output": true,
+  "label_1": "safe/nontoxic",
+  "all_protected_sources_unchanged": true,
+  "OOF_replay_exact": true,
+  "predictions_match_frozen_cutoff": true,
+  "submission_sha256": "4a0317ff663a712f4d762e5ee8af5e369f8347baef1e8b35fcb1a35ad544c421",
+  "submitted": false,
+  "notebook_executed_code_cells": 6,
+  "notebook_errors": 0
+}

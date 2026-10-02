@@ -1,0 +1,74 @@
+{
+  "selected": {
+    "full_data_fraction": 0.5,
+    "D": 557,
+    "threshold": 0.4218680916925355,
+    "estimated_f1_not_measured": 0.8385056522098937,
+    "changed_from_current": 10,
+    "changed_from_best_actual_submission": 14,
+    "file": "predict_output_finalmix_0.5.csv"
+  },
+  "choice_reason": "5-fold nested-fitting proxy refit F1 gain=0.002966; full at >=.003, half in [-.002,.003), otherwise CV. Proxy uses 3 families, not final 25.",
+  "candidates": [
+    {
+      "full_data_fraction": 0.0,
+      "D": 556,
+      "threshold": 0.4218680916925355,
+      "estimated_f1_not_measured": 0.8345168751329851,
+      "changed_from_current": 11,
+      "changed_from_best_actual_submission": 15,
+      "file": "predict_output_finalmix_0.csv"
+    },
+    {
+      "full_data_fraction": 0.5,
+      "D": 557,
+      "threshold": 0.4218680916925355,
+      "estimated_f1_not_measured": 0.8385056522098937,
+      "changed_from_current": 10,
+      "changed_from_best_actual_submission": 14,
+      "file": "predict_output_finalmix_0.5.csv"
+    },
+    {
+      "full_data_fraction": 1.0,
+      "D": 551,
+      "threshold": 0.4218680916925355,
+      "estimated_f1_not_measured": 0.8429921650808924,
+      "changed_from_current": 18,
+      "changed_from_best_actual_submission": 22,
+      "file": "predict_output_finalmix_1.csv"
+    }
+  ],
+  "models": [
+    "et",
+    "lgb_a",
+    "lgb_b",
+    "lgb_fp2",
+    "lgb_goss",
+    "rf",
+    "xgb_a",
+    "xgb_b",
+    "xgb_fp2",
+    "lgb_chiralcounts_seed42",
+    "lgb_extra63_seed42",
+    "lgb_leaf31_lowchild_seed42",
+    "lgb_leaf31_seed42",
+    "svm_multi_C10_prop0.15_seed42",
+    "svm_multi_C10_prop0_seed42",
+    "svm_multi_C1_prop0_seed42",
+    "svm_multi_C3_prop0.15_seed42",
+    "svm_multi_C3_prop0_seed42",
+    "svm_tanimoto_C3_seed42",
+    "xgb_depth5_reg_seed42",
+    "bag_cp",
+    "cat_fp2",
+    "lgb_mord",
+    "svm_cb77",
+    "svm_molf"
+  ],
+  "meta_model": "15 logistic meta models; 3 repeated 5-folds, C=0.1, logit probability inputs",
+  "repeat_meta_f1": 0.8354383129166746,
+  "repeat_meta_baseline_f1": 0.8333910482783339,
+  "oof_auc": 0.8963142011569454,
+  "pooled_oof_f1_at_fixed_cut": 0.8359865940511102,
+  "scope": "Repeated meta CV reuses base OOF and has indirect leakage/prior selection bias. Full-refit hidden-test F1 is unknown."
+}
